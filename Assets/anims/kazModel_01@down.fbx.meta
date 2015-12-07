@@ -1,0 +1,965 @@
+fileFormatVersion: 2
+guid: a6a91f6feb3720649aa192f7fc09ad58
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: AbdomenBender
+    100002: AbdomenController
+    100004: AbdomenIndependentController
+    100006: b_Head
+    100008: b_Head 1
+    100010: b_Hips
+    100012: b_Hips 1
+    100014: b_Hips_FK_ignore
+    100016: b_Hips_IK_ignore
+    100018: b_IK_Foot_L
+    100020: b_IK_Foot_L 1
+    100022: b_IK_Foot_L_Controller
+    100024: b_IK_Foot_L_Offset
+    100026: b_IK_Foot_L_Stationary
+    100028: b_IK_Foot_R
+    100030: b_IK_Foot_R 1
+    100032: b_IK_Foot_R_Controller
+    100034: b_IK_Foot_R_Offset
+    100036: b_IK_Foot_R_Stationary
+    100038: b_IK_Foot_Root
+    100040: b_IK_Foot_Root 1
+    100042: b_IK_Gun
+    100044: b_IK_Gun 1
+    100046: b_IK_Gun_Controller
+    100048: b_IK_Gun_Offset
+    100050: b_IK_Gun_Stationary
+    100052: b_IK_Hand_L
+    100054: b_IK_Hand_L 1
+    100056: b_IK_Hand_L_Controller
+    100058: b_IK_Hand_L_Offset
+    100060: b_IK_Hand_L_Stationary
+    100062: b_IK_Hand_R
+    100064: b_IK_Hand_R 1
+    100066: b_IK_Hand_R_Controller
+    100068: b_IK_Hand_R_Offset
+    100070: b_IK_Hand_R_Stationary
+    100072: b_IK_Hand_Root
+    100074: b_IK_Hand_Root 1
+    100076: b_LeftAnkle
+    100078: b_LeftAnkle 1
+    100080: b_LeftAnkle_driven
+    100082: b_LeftAnkle_FK
+    100084: b_LeftAnkle_IK
+    100086: b_LeftArm
+    100088: b_LeftArm 1
+    100090: b_LeftArm_Driven_ignore
+    100092: b_LeftArm_FK_ignore
+    100094: b_LeftArm_IK_ignore
+    100096: b_LeftArmRoll
+    100098: b_LeftArmRoll 1
+    100100: b_LeftClav
+    100102: b_LeftClav 1
+    100104: b_LeftForeArm
+    100106: b_LeftForeArm 1
+    100108: b_LeftForeArm 2
+    100110: b_LeftForeArm_FK
+    100112: b_LeftForeArm_IK
+    100114: b_LeftForeArmRoll
+    100116: b_LeftForeArmRoll 1
+    100118: b_LeftForeArmRoll_grp
+    100120: b_LeftHand
+    100122: b_LeftHand 1
+    100124: b_LeftHand 2
+    100126: b_LeftHand_FK
+    100128: b_LeftHand_IKDummy
+    100130: b_LeftHand_IKDummy_ignore
+    100132: b_LeftIndex1
+    100134: b_LeftIndex1 1
+    100136: b_LeftIndex2
+    100138: b_LeftIndex2 1
+    100140: b_LeftIndex3
+    100142: b_LeftIndex3 1
+    100144: b_LeftLeg
+    100146: b_LeftLeg 1
+    100148: b_LeftLeg_driven
+    100150: b_LeftLeg_FK
+    100152: b_LeftLeg_IK
+    100154: b_LeftLegUpper
+    100156: b_LeftLegUpper 1
+    100158: b_LeftLegUpper_driven_ignore
+    100160: b_LeftLegUpper_FK_ignore
+    100162: b_LeftLegUpper_IK_ignore
+    100164: b_LeftLegUpperRoll
+    100166: b_LeftLegUpperRoll 1
+    100168: b_LeftMiddle1
+    100170: b_LeftMiddle1 1
+    100172: b_LeftMiddle2
+    100174: b_LeftMiddle2 1
+    100176: b_LeftMilddle3
+    100178: b_LeftMilddle3 1
+    100180: b_LeftPinky1
+    100182: b_LeftPinky1 1
+    100184: b_LeftPinky2
+    100186: b_LeftPinky2 1
+    100188: b_LeftPinky3
+    100190: b_LeftPinky3 1
+    100192: b_LeftRing1
+    100194: b_LeftRing1 1
+    100196: b_LeftRing2
+    100198: b_LeftRing2 1
+    100200: b_LeftRing3
+    100202: b_LeftRing3 1
+    100204: b_LeftShoulderPad
+    100206: b_LeftShoulderPad 1
+    100208: b_LeftThumb1
+    100210: b_LeftThumb1 1
+    100212: b_LeftThumb2
+    100214: b_LeftThumb2 1
+    100216: b_LeftThumb3
+    100218: b_LeftThumb3 1
+    100220: b_LeftToe
+    100222: b_LeftToe 1
+    100224: b_LeftToe_driven
+    100226: b_LeftToe_FK
+    100228: b_LeftToe_IK
+    100230: b_LeftWeapon
+    100232: b_LeftWeapon 1
+    100234: b_Neck
+    100236: b_Neck 1
+    100238: b_RightAnkle
+    100240: b_RightAnkle 1
+    100242: b_RightAnkle_driven
+    100244: b_RightAnkle_FK
+    100246: b_RightAnkle_IK
+    100248: b_RightArm
+    100250: b_RightArm 1
+    100252: b_RightArm_Driven_ignore
+    100254: b_RightArm_FK_ignore
+    100256: b_RightArm_IK_ignore
+    100258: b_RightArmRoll
+    100260: b_RightClav
+    100262: b_RightClav 1
+    100264: b_RightForeArm
+    100266: b_RightForeArm 1
+    100268: b_RightForeArm_Driven
+    100270: b_RightForeArm_FK
+    100272: b_RightForeArm_IK
+    100274: b_RightForeArmRoll
+    100276: b_RightForeArmRoll 1
+    100278: b_RightForeArmRoll_grp
+    100280: b_RightHand
+    100282: b_RightHand 1
+    100284: b_RightHand_Driven
+    100286: b_RightHandTransform_Driven
+    100288: b_RightIndex1
+    100290: b_RightIndex1 1
+    100292: b_RightIndex2
+    100294: b_RightIndex2 1
+    100296: b_RightIndex3
+    100298: b_RightIndex3 1
+    100300: b_RightLeg
+    100302: b_RightLeg 1
+    100304: b_RightLeg_driven
+    100306: b_RightLeg_FK
+    100308: b_RightLeg_IK
+    100310: b_RightLegUpper
+    100312: b_RightLegUpper 1
+    100314: b_RightLegUpper_driven_ignore
+    100316: b_RightLegUpper_FK_ignore
+    100318: b_RightLegUpper_IK_ignore
+    100320: b_RightLegUpperRoll
+    100322: b_RightLegUpperRoll 1
+    100324: b_RightMiddle1
+    100326: b_RightMiddle1 1
+    100328: b_RightMiddle2
+    100330: b_RightMiddle2 1
+    100332: b_RightMiddle3
+    100334: b_RightMiddle3 1
+    100336: b_RightPinky1
+    100338: b_RightPinky1 1
+    100340: b_RightPinky2
+    100342: b_RightPinky2 1
+    100344: b_RightPinky3
+    100346: b_RightPinky3 1
+    100348: b_RightRing1
+    100350: b_RightRing1 1
+    100352: b_RightRing2
+    100354: b_RightRing2 1
+    100356: b_RightRing3
+    100358: b_RightRing3 1
+    100360: b_RightShoulderPad
+    100362: b_RightShoulderPad 1
+    100364: b_RightThumb1
+    100366: b_RightThumb1 1
+    100368: b_RightThumb2
+    100370: b_RightThumb2 1
+    100372: b_RightThumb3
+    100374: b_RightThumb3 1
+    100376: b_RightToe
+    100378: b_RightToe 1
+    100380: b_RightToe_driven
+    100382: b_RightToe_FK
+    100384: b_RightToe_IK
+    100386: b_RightWeapon
+    100388: b_RightWeapon 1
+    100390: b_Root
+    100392: b_Spine
+    100394: b_Spine 1
+    100396: b_Spine1
+    100398: b_Spine1 1
+    100400: b_Spine1_FK
+    100402: b_Spine1_IK
+    100404: b_Spine2
+    100406: b_Spine2 1
+    100408: b_Spine2_FK
+    100410: b_Spine2_IK
+    100412: b_Spine_FK
+    100414: b_Spine_IK
+    100416: Chest_IK_ctrl
+    100418: Chest_IK_ctrl_0
+    100420: ChestBender
+    100422: ChestController
+    100424: ChestIndependentController
+    100426: ControllerContainer_DoNotModify
+    100428: ControllerSkeleton_b_Root_ignore
+    100430: ExportOffset
+    100432: fingersFK_grp
+    100434: GameIKs
+    100436: group
+    100438: HeadAimConstraint
+    100440: HeadController
+    100442: HipController
+    100444: //RootNode
+    100446: L_AnkleFK_ctrl
+    100448: L_AnkleFK_ctrl_0
+    100450: L_Arm_FKIK_grp
+    100452: L_BallRoll_ctrl
+    100454: L_fingers_ctrl_grp
+    100456: L_FootIK_ctrl
+    100458: L_FootIK_ctrl_0
+    100460: L_FootIK_sdk
+    100462: L_ForeArm_FKctrl
+    100464: L_ForeArm_FKctrl_0
+    100466: L_ForeArm_FKctrl_sdk
+    100468: L_Hand_FKctrl
+    100470: L_Hand_FKctrl_0
+    100472: L_Hand_FKctrl_sdk
+    100474: L_Hand_Switches_ctrl
+    100476: L_Hand_Switches_ctrl_0
+    100478: L_HandController
+    100480: L_HandIK_FollowOppositeHand_grp
+    100482: L_HandIKOffset
+    100484: L_HandIKStationary
+    100486: L_HeelRoll_ctrl
+    100488: L_HeelRoll_sdk
+    100490: L_Hip_dummy
+    100492: L_index1_ctrl
+    100494: L_index1_ctrl_0
+    100496: L_index1_ctrl_sdk
+    100498: L_index2_ctrl
+    100500: L_index2_ctrl_0
+    100502: L_index2_ctrl_sdk
+    100504: L_index3_ctrl
+    100506: L_index3_ctrl_0
+    100508: L_index3_ctrl_sdk
+    100510: L_KneeFK_ctrl
+    100512: L_KneeFK_ctrl_0
+    100514: L_LegIKFK_scraps
+    100516: L_middle1_ctrl
+    100518: L_middle1_ctrl_0
+    100520: L_middle1_ctrl_sdk
+    100522: L_middle2_ctrl
+    100524: L_middle2_ctrl_0
+    100526: L_middle2_ctrl_sdk
+    100528: L_middle3_ctrl
+    100530: L_middle3_ctrl_0
+    100532: L_middle3_ctrl_sdk
+    100534: L_pinky1_ctrl
+    100536: L_pinky1_ctrl_0
+    100538: L_pinky1_ctrl_sdk
+    100540: L_pinky2_ctrl
+    100542: L_pinky2_ctrl_0
+    100544: L_pinky2_ctrl_sdk
+    100546: L_pinky3_ctrl
+    100548: L_pinky3_ctrl_0
+    100550: L_pinky3_ctrl_sdk
+    100552: L_ring1_ctrl
+    100554: L_ring1_ctrl_0
+    100556: L_ring1_ctrl_sdk
+    100558: L_ring2_ctrl
+    100560: L_ring2_ctrl_0
+    100562: L_ring2_ctrl_sdk
+    100564: L_ring3_ctrl
+    100566: L_ring3_ctrl_0
+    100568: L_ring3_ctrl_sdk
+    100570: L_ShoulderController
+    100572: L_ThighFK_ctrl
+    100574: L_ThighFK_ctrl_0
+    100576: L_thumb1_ctrl
+    100578: L_thumb1_ctrl_0
+    100580: L_thumb1_ctrl_sdk
+    100582: L_thumb2_ctrl
+    100584: L_thumb2_ctrl_0
+    100586: L_thumb2_ctrl_sdk
+    100588: L_thumb3_ctrl
+    100590: L_thumb3_ctrl_0
+    100592: L_thumb3_ctrl_sdk
+    100594: L_ToeFK_ctrl
+    100596: L_ToeFK_ctrl_0
+    100598: L_ToeIK_ctrl
+    100600: L_ToeIK_sdk
+    100602: L_UpperArm_FKctrl
+    100604: L_UpperArm_FKctrl_0
+    100606: L_UpperArm_FKctrl_sdk
+    100608: L_WeaponController
+    100610: L_WeaponOffset
+    100612: L_WeaponStationary
+    100614: L_wpn_tweak
+    100616: L_Wrist_ctrl
+    100618: L_Wrist_ctrl_0
+    100620: L_Wrist_ctrl_sdk
+    100622: MasterController
+    100624: matModelOnly:group2
+    100626: matModelOnly:polySurface38
+    100628: matModelOnly:polySurface54
+    100630: matModelOnly:polySurface55
+    100632: matModelOnly:polySurface56
+    100634: matModelOnly:polySurface57
+    100636: matModelOnly:polySurface58
+    100638: matModelOnly:polySurface62
+    100640: matModelOnly:polySurface63
+    100642: matModelOnly:polySurface65
+    100644: matModelOnly:polySurface67
+    100646: matModelOnly:pPlane40
+    100648: matModelOnly:pPlane41
+    100650: matModelOnly:regModel_19rigBegin:polySurface15
+    100652: matModelOnly:regModel_19rigBegin:polySurface23
+    100654: MovementOffset
+    100656: Neck_ctrl_0
+    100658: NeckController
+    100660: NeckIndependentController
+    100662: Pelvis_IK_ctrl
+    100664: PelvisController
+    100666: Pivot1
+    100668: Pivot2
+    100670: Pivot3
+    100672: Pivot4
+    100674: polySurface23
+    100676: polySurface38
+    100678: polySurface61
+    100680: R_AnkleFK_ctrl
+    100682: R_AnkleFK_ctrl_0
+    100684: R_Arm_FKIK_grp
+    100686: R_BallRoll_ctrl
+    100688: R_fingers_ctrl_grp
+    100690: R_FootIK_ctrl
+    100692: R_FootIK_ctrl_0
+    100694: R_FootIK_sdk
+    100696: R_ForeArm_FKctrl
+    100698: R_ForeArm_FKctrl_0
+    100700: R_ForeArm_FKctrl_sdk
+    100702: R_Hand_Switches_ctrl
+    100704: R_Hand_Switches_ctrl_0
+    100706: R_HeelRoll_ctrl
+    100708: R_HeelRoll_sdk
+    100710: R_Hip_dummy
+    100712: R_index1_ctrl
+    100714: R_index1_ctrl_0
+    100716: R_index1_ctrl_sdk
+    100718: R_index2_ctrl
+    100720: R_index2_ctrl_0
+    100722: R_index2_ctrl_sdk
+    100724: R_index3_ctrl
+    100726: R_index3_ctrl_0
+    100728: R_index3_ctrl_sdk
+    100730: R_KneeFK_ctrl
+    100732: R_KneeFK_ctrl_0
+    100734: R_LegIKFK_scraps
+    100736: R_middle1_ctrl
+    100738: R_middle1_ctrl_0
+    100740: R_middle1_ctrl_sdk
+    100742: R_middle2_ctrl
+    100744: R_middle2_ctrl_0
+    100746: R_middle2_ctrl_sdk
+    100748: R_middle3_ctrl
+    100750: R_middle3_ctrl_0
+    100752: R_middle3_ctrl_sdk
+    100754: R_pinky1_ctrl
+    100756: R_pinky1_ctrl_0
+    100758: R_pinky1_ctrl_sdk
+    100760: R_pinky2_ctrl
+    100762: R_pinky2_ctrl_0
+    100764: R_pinky2_ctrl_sdk
+    100766: R_pinky3_ctrl
+    100768: R_pinky3_ctrl_0
+    100770: R_pinky3_ctrl_sdk
+    100772: R_ring1_ctrl
+    100774: R_ring1_ctrl_0
+    100776: R_ring1_ctrl_sdk
+    100778: R_ring2_ctrl
+    100780: R_ring2_ctrl_0
+    100782: R_ring2_ctrl_sdk
+    100784: R_ring3_ctrl
+    100786: R_ring3_ctrl_0
+    100788: R_ring3_ctrl_sdk
+    100790: R_ShoulderController
+    100792: R_ThighFK_ctrl
+    100794: R_ThighFK_ctrl_0
+    100796: R_thumb1_ctrl
+    100798: R_thumb1_ctrl_0
+    100800: R_thumb1_ctrl_sdk
+    100802: R_thumb2_ctrl
+    100804: R_thumb2_ctrl_0
+    100806: R_thumb2_ctrl_sdk
+    100808: R_thumb3_ctrl
+    100810: R_thumb3_ctrl_0
+    100812: R_thumb3_ctrl_sdk
+    100814: R_ToeFK_ctrl
+    100816: R_ToeFK_ctrl_0
+    100818: R_ToeIK_ctrl
+    100820: R_ToeIK_sdk
+    100822: R_UpperArm_FKctrl
+    100824: R_UpperArm_FKctrl_0
+    100826: R_UpperArm_FKctrl_sdk
+    100828: R_WeaponController
+    100830: R_WeaponOffset
+    100832: R_WeaponStationary
+    100834: R_wpn_tweak
+    100836: R_Wrist_ctrl
+    100838: R_Wrist_ctrl_0
+    100840: R_Wrist_ctrl_sdk
+    100842: ShoulderControllers
+    100844: SpineFK_grp
+    100846: SpineIK_grp
+    100848: SpineScraps
+    100850: TorsoController
+    100852: WaistBend
+    100854: WaistController
+    100856: WaistIndependentController
+    400000: AbdomenBender
+    400002: AbdomenController
+    400004: AbdomenIndependentController
+    400006: b_Head
+    400008: b_Head 1
+    400010: b_Hips
+    400012: b_Hips 1
+    400014: b_Hips_FK_ignore
+    400016: b_Hips_IK_ignore
+    400018: b_IK_Foot_L
+    400020: b_IK_Foot_L 1
+    400022: b_IK_Foot_L_Controller
+    400024: b_IK_Foot_L_Offset
+    400026: b_IK_Foot_L_Stationary
+    400028: b_IK_Foot_R
+    400030: b_IK_Foot_R 1
+    400032: b_IK_Foot_R_Controller
+    400034: b_IK_Foot_R_Offset
+    400036: b_IK_Foot_R_Stationary
+    400038: b_IK_Foot_Root
+    400040: b_IK_Foot_Root 1
+    400042: b_IK_Gun
+    400044: b_IK_Gun 1
+    400046: b_IK_Gun_Controller
+    400048: b_IK_Gun_Offset
+    400050: b_IK_Gun_Stationary
+    400052: b_IK_Hand_L
+    400054: b_IK_Hand_L 1
+    400056: b_IK_Hand_L_Controller
+    400058: b_IK_Hand_L_Offset
+    400060: b_IK_Hand_L_Stationary
+    400062: b_IK_Hand_R
+    400064: b_IK_Hand_R 1
+    400066: b_IK_Hand_R_Controller
+    400068: b_IK_Hand_R_Offset
+    400070: b_IK_Hand_R_Stationary
+    400072: b_IK_Hand_Root
+    400074: b_IK_Hand_Root 1
+    400076: b_LeftAnkle
+    400078: b_LeftAnkle 1
+    400080: b_LeftAnkle_driven
+    400082: b_LeftAnkle_FK
+    400084: b_LeftAnkle_IK
+    400086: b_LeftArm
+    400088: b_LeftArm 1
+    400090: b_LeftArm_Driven_ignore
+    400092: b_LeftArm_FK_ignore
+    400094: b_LeftArm_IK_ignore
+    400096: b_LeftArmRoll
+    400098: b_LeftArmRoll 1
+    400100: b_LeftClav
+    400102: b_LeftClav 1
+    400104: b_LeftForeArm
+    400106: b_LeftForeArm 1
+    400108: b_LeftForeArm 2
+    400110: b_LeftForeArm_FK
+    400112: b_LeftForeArm_IK
+    400114: b_LeftForeArmRoll
+    400116: b_LeftForeArmRoll 1
+    400118: b_LeftForeArmRoll_grp
+    400120: b_LeftHand
+    400122: b_LeftHand 1
+    400124: b_LeftHand 2
+    400126: b_LeftHand_FK
+    400128: b_LeftHand_IKDummy
+    400130: b_LeftHand_IKDummy_ignore
+    400132: b_LeftIndex1
+    400134: b_LeftIndex1 1
+    400136: b_LeftIndex2
+    400138: b_LeftIndex2 1
+    400140: b_LeftIndex3
+    400142: b_LeftIndex3 1
+    400144: b_LeftLeg
+    400146: b_LeftLeg 1
+    400148: b_LeftLeg_driven
+    400150: b_LeftLeg_FK
+    400152: b_LeftLeg_IK
+    400154: b_LeftLegUpper
+    400156: b_LeftLegUpper 1
+    400158: b_LeftLegUpper_driven_ignore
+    400160: b_LeftLegUpper_FK_ignore
+    400162: b_LeftLegUpper_IK_ignore
+    400164: b_LeftLegUpperRoll
+    400166: b_LeftLegUpperRoll 1
+    400168: b_LeftMiddle1
+    400170: b_LeftMiddle1 1
+    400172: b_LeftMiddle2
+    400174: b_LeftMiddle2 1
+    400176: b_LeftMilddle3
+    400178: b_LeftMilddle3 1
+    400180: b_LeftPinky1
+    400182: b_LeftPinky1 1
+    400184: b_LeftPinky2
+    400186: b_LeftPinky2 1
+    400188: b_LeftPinky3
+    400190: b_LeftPinky3 1
+    400192: b_LeftRing1
+    400194: b_LeftRing1 1
+    400196: b_LeftRing2
+    400198: b_LeftRing2 1
+    400200: b_LeftRing3
+    400202: b_LeftRing3 1
+    400204: b_LeftShoulderPad
+    400206: b_LeftShoulderPad 1
+    400208: b_LeftThumb1
+    400210: b_LeftThumb1 1
+    400212: b_LeftThumb2
+    400214: b_LeftThumb2 1
+    400216: b_LeftThumb3
+    400218: b_LeftThumb3 1
+    400220: b_LeftToe
+    400222: b_LeftToe 1
+    400224: b_LeftToe_driven
+    400226: b_LeftToe_FK
+    400228: b_LeftToe_IK
+    400230: b_LeftWeapon
+    400232: b_LeftWeapon 1
+    400234: b_Neck
+    400236: b_Neck 1
+    400238: b_RightAnkle
+    400240: b_RightAnkle 1
+    400242: b_RightAnkle_driven
+    400244: b_RightAnkle_FK
+    400246: b_RightAnkle_IK
+    400248: b_RightArm
+    400250: b_RightArm 1
+    400252: b_RightArm_Driven_ignore
+    400254: b_RightArm_FK_ignore
+    400256: b_RightArm_IK_ignore
+    400258: b_RightArmRoll
+    400260: b_RightClav
+    400262: b_RightClav 1
+    400264: b_RightForeArm
+    400266: b_RightForeArm 1
+    400268: b_RightForeArm_Driven
+    400270: b_RightForeArm_FK
+    400272: b_RightForeArm_IK
+    400274: b_RightForeArmRoll
+    400276: b_RightForeArmRoll 1
+    400278: b_RightForeArmRoll_grp
+    400280: b_RightHand
+    400282: b_RightHand 1
+    400284: b_RightHand_Driven
+    400286: b_RightHandTransform_Driven
+    400288: b_RightIndex1
+    400290: b_RightIndex1 1
+    400292: b_RightIndex2
+    400294: b_RightIndex2 1
+    400296: b_RightIndex3
+    400298: b_RightIndex3 1
+    400300: b_RightLeg
+    400302: b_RightLeg 1
+    400304: b_RightLeg_driven
+    400306: b_RightLeg_FK
+    400308: b_RightLeg_IK
+    400310: b_RightLegUpper
+    400312: b_RightLegUpper 1
+    400314: b_RightLegUpper_driven_ignore
+    400316: b_RightLegUpper_FK_ignore
+    400318: b_RightLegUpper_IK_ignore
+    400320: b_RightLegUpperRoll
+    400322: b_RightLegUpperRoll 1
+    400324: b_RightMiddle1
+    400326: b_RightMiddle1 1
+    400328: b_RightMiddle2
+    400330: b_RightMiddle2 1
+    400332: b_RightMiddle3
+    400334: b_RightMiddle3 1
+    400336: b_RightPinky1
+    400338: b_RightPinky1 1
+    400340: b_RightPinky2
+    400342: b_RightPinky2 1
+    400344: b_RightPinky3
+    400346: b_RightPinky3 1
+    400348: b_RightRing1
+    400350: b_RightRing1 1
+    400352: b_RightRing2
+    400354: b_RightRing2 1
+    400356: b_RightRing3
+    400358: b_RightRing3 1
+    400360: b_RightShoulderPad
+    400362: b_RightShoulderPad 1
+    400364: b_RightThumb1
+    400366: b_RightThumb1 1
+    400368: b_RightThumb2
+    400370: b_RightThumb2 1
+    400372: b_RightThumb3
+    400374: b_RightThumb3 1
+    400376: b_RightToe
+    400378: b_RightToe 1
+    400380: b_RightToe_driven
+    400382: b_RightToe_FK
+    400384: b_RightToe_IK
+    400386: b_RightWeapon
+    400388: b_RightWeapon 1
+    400390: b_Root
+    400392: b_Spine
+    400394: b_Spine 1
+    400396: b_Spine1
+    400398: b_Spine1 1
+    400400: b_Spine1_FK
+    400402: b_Spine1_IK
+    400404: b_Spine2
+    400406: b_Spine2 1
+    400408: b_Spine2_FK
+    400410: b_Spine2_IK
+    400412: b_Spine_FK
+    400414: b_Spine_IK
+    400416: Chest_IK_ctrl
+    400418: Chest_IK_ctrl_0
+    400420: ChestBender
+    400422: ChestController
+    400424: ChestIndependentController
+    400426: ControllerContainer_DoNotModify
+    400428: ControllerSkeleton_b_Root_ignore
+    400430: ExportOffset
+    400432: fingersFK_grp
+    400434: GameIKs
+    400436: group
+    400438: HeadAimConstraint
+    400440: HeadController
+    400442: HipController
+    400444: //RootNode
+    400446: L_AnkleFK_ctrl
+    400448: L_AnkleFK_ctrl_0
+    400450: L_Arm_FKIK_grp
+    400452: L_BallRoll_ctrl
+    400454: L_fingers_ctrl_grp
+    400456: L_FootIK_ctrl
+    400458: L_FootIK_ctrl_0
+    400460: L_FootIK_sdk
+    400462: L_ForeArm_FKctrl
+    400464: L_ForeArm_FKctrl_0
+    400466: L_ForeArm_FKctrl_sdk
+    400468: L_Hand_FKctrl
+    400470: L_Hand_FKctrl_0
+    400472: L_Hand_FKctrl_sdk
+    400474: L_Hand_Switches_ctrl
+    400476: L_Hand_Switches_ctrl_0
+    400478: L_HandController
+    400480: L_HandIK_FollowOppositeHand_grp
+    400482: L_HandIKOffset
+    400484: L_HandIKStationary
+    400486: L_HeelRoll_ctrl
+    400488: L_HeelRoll_sdk
+    400490: L_Hip_dummy
+    400492: L_index1_ctrl
+    400494: L_index1_ctrl_0
+    400496: L_index1_ctrl_sdk
+    400498: L_index2_ctrl
+    400500: L_index2_ctrl_0
+    400502: L_index2_ctrl_sdk
+    400504: L_index3_ctrl
+    400506: L_index3_ctrl_0
+    400508: L_index3_ctrl_sdk
+    400510: L_KneeFK_ctrl
+    400512: L_KneeFK_ctrl_0
+    400514: L_LegIKFK_scraps
+    400516: L_middle1_ctrl
+    400518: L_middle1_ctrl_0
+    400520: L_middle1_ctrl_sdk
+    400522: L_middle2_ctrl
+    400524: L_middle2_ctrl_0
+    400526: L_middle2_ctrl_sdk
+    400528: L_middle3_ctrl
+    400530: L_middle3_ctrl_0
+    400532: L_middle3_ctrl_sdk
+    400534: L_pinky1_ctrl
+    400536: L_pinky1_ctrl_0
+    400538: L_pinky1_ctrl_sdk
+    400540: L_pinky2_ctrl
+    400542: L_pinky2_ctrl_0
+    400544: L_pinky2_ctrl_sdk
+    400546: L_pinky3_ctrl
+    400548: L_pinky3_ctrl_0
+    400550: L_pinky3_ctrl_sdk
+    400552: L_ring1_ctrl
+    400554: L_ring1_ctrl_0
+    400556: L_ring1_ctrl_sdk
+    400558: L_ring2_ctrl
+    400560: L_ring2_ctrl_0
+    400562: L_ring2_ctrl_sdk
+    400564: L_ring3_ctrl
+    400566: L_ring3_ctrl_0
+    400568: L_ring3_ctrl_sdk
+    400570: L_ShoulderController
+    400572: L_ThighFK_ctrl
+    400574: L_ThighFK_ctrl_0
+    400576: L_thumb1_ctrl
+    400578: L_thumb1_ctrl_0
+    400580: L_thumb1_ctrl_sdk
+    400582: L_thumb2_ctrl
+    400584: L_thumb2_ctrl_0
+    400586: L_thumb2_ctrl_sdk
+    400588: L_thumb3_ctrl
+    400590: L_thumb3_ctrl_0
+    400592: L_thumb3_ctrl_sdk
+    400594: L_ToeFK_ctrl
+    400596: L_ToeFK_ctrl_0
+    400598: L_ToeIK_ctrl
+    400600: L_ToeIK_sdk
+    400602: L_UpperArm_FKctrl
+    400604: L_UpperArm_FKctrl_0
+    400606: L_UpperArm_FKctrl_sdk
+    400608: L_WeaponController
+    400610: L_WeaponOffset
+    400612: L_WeaponStationary
+    400614: L_wpn_tweak
+    400616: L_Wrist_ctrl
+    400618: L_Wrist_ctrl_0
+    400620: L_Wrist_ctrl_sdk
+    400622: MasterController
+    400624: matModelOnly:group2
+    400626: matModelOnly:polySurface38
+    400628: matModelOnly:polySurface54
+    400630: matModelOnly:polySurface55
+    400632: matModelOnly:polySurface56
+    400634: matModelOnly:polySurface57
+    400636: matModelOnly:polySurface58
+    400638: matModelOnly:polySurface62
+    400640: matModelOnly:polySurface63
+    400642: matModelOnly:polySurface65
+    400644: matModelOnly:polySurface67
+    400646: matModelOnly:pPlane40
+    400648: matModelOnly:pPlane41
+    400650: matModelOnly:regModel_19rigBegin:polySurface15
+    400652: matModelOnly:regModel_19rigBegin:polySurface23
+    400654: MovementOffset
+    400656: Neck_ctrl_0
+    400658: NeckController
+    400660: NeckIndependentController
+    400662: Pelvis_IK_ctrl
+    400664: PelvisController
+    400666: Pivot1
+    400668: Pivot2
+    400670: Pivot3
+    400672: Pivot4
+    400674: polySurface23
+    400676: polySurface38
+    400678: polySurface61
+    400680: R_AnkleFK_ctrl
+    400682: R_AnkleFK_ctrl_0
+    400684: R_Arm_FKIK_grp
+    400686: R_BallRoll_ctrl
+    400688: R_fingers_ctrl_grp
+    400690: R_FootIK_ctrl
+    400692: R_FootIK_ctrl_0
+    400694: R_FootIK_sdk
+    400696: R_ForeArm_FKctrl
+    400698: R_ForeArm_FKctrl_0
+    400700: R_ForeArm_FKctrl_sdk
+    400702: R_Hand_Switches_ctrl
+    400704: R_Hand_Switches_ctrl_0
+    400706: R_HeelRoll_ctrl
+    400708: R_HeelRoll_sdk
+    400710: R_Hip_dummy
+    400712: R_index1_ctrl
+    400714: R_index1_ctrl_0
+    400716: R_index1_ctrl_sdk
+    400718: R_index2_ctrl
+    400720: R_index2_ctrl_0
+    400722: R_index2_ctrl_sdk
+    400724: R_index3_ctrl
+    400726: R_index3_ctrl_0
+    400728: R_index3_ctrl_sdk
+    400730: R_KneeFK_ctrl
+    400732: R_KneeFK_ctrl_0
+    400734: R_LegIKFK_scraps
+    400736: R_middle1_ctrl
+    400738: R_middle1_ctrl_0
+    400740: R_middle1_ctrl_sdk
+    400742: R_middle2_ctrl
+    400744: R_middle2_ctrl_0
+    400746: R_middle2_ctrl_sdk
+    400748: R_middle3_ctrl
+    400750: R_middle3_ctrl_0
+    400752: R_middle3_ctrl_sdk
+    400754: R_pinky1_ctrl
+    400756: R_pinky1_ctrl_0
+    400758: R_pinky1_ctrl_sdk
+    400760: R_pinky2_ctrl
+    400762: R_pinky2_ctrl_0
+    400764: R_pinky2_ctrl_sdk
+    400766: R_pinky3_ctrl
+    400768: R_pinky3_ctrl_0
+    400770: R_pinky3_ctrl_sdk
+    400772: R_ring1_ctrl
+    400774: R_ring1_ctrl_0
+    400776: R_ring1_ctrl_sdk
+    400778: R_ring2_ctrl
+    400780: R_ring2_ctrl_0
+    400782: R_ring2_ctrl_sdk
+    400784: R_ring3_ctrl
+    400786: R_ring3_ctrl_0
+    400788: R_ring3_ctrl_sdk
+    400790: R_ShoulderController
+    400792: R_ThighFK_ctrl
+    400794: R_ThighFK_ctrl_0
+    400796: R_thumb1_ctrl
+    400798: R_thumb1_ctrl_0
+    400800: R_thumb1_ctrl_sdk
+    400802: R_thumb2_ctrl
+    400804: R_thumb2_ctrl_0
+    400806: R_thumb2_ctrl_sdk
+    400808: R_thumb3_ctrl
+    400810: R_thumb3_ctrl_0
+    400812: R_thumb3_ctrl_sdk
+    400814: R_ToeFK_ctrl
+    400816: R_ToeFK_ctrl_0
+    400818: R_ToeIK_ctrl
+    400820: R_ToeIK_sdk
+    400822: R_UpperArm_FKctrl
+    400824: R_UpperArm_FKctrl_0
+    400826: R_UpperArm_FKctrl_sdk
+    400828: R_WeaponController
+    400830: R_WeaponOffset
+    400832: R_WeaponStationary
+    400834: R_wpn_tweak
+    400836: R_Wrist_ctrl
+    400838: R_Wrist_ctrl_0
+    400840: R_Wrist_ctrl_sdk
+    400842: ShoulderControllers
+    400844: SpineFK_grp
+    400846: SpineIK_grp
+    400848: SpineScraps
+    400850: TorsoController
+    400852: WaistBend
+    400854: WaistController
+    400856: WaistIndependentController
+    2300000: AbdomenController
+    2300002: ChestController
+    2300004: L_HandController
+    2300006: PelvisController
+    2300008: WaistController
+    3300000: AbdomenController
+    3300002: ChestController
+    3300004: L_HandController
+    3300006: PelvisController
+    3300008: WaistController
+    4300000: PelvisController
+    4300002: WaistController
+    4300004: AbdomenController
+    4300006: ChestController
+    4300008: L_HandController
+    4300010: matModelOnly:polySurface58
+    4300012: matModelOnly:polySurface57
+    4300014: matModelOnly:polySurface56
+    4300016: matModelOnly:polySurface55
+    4300018: matModelOnly:polySurface38
+    4300020: matModelOnly:polySurface54
+    4300022: matModelOnly:regModel_19rigBegin:polySurface23
+    4300024: polySurface23
+    4300026: matModelOnly:polySurface62
+    4300028: matModelOnly:polySurface63
+    4300030: matModelOnly:polySurface65
+    4300032: matModelOnly:polySurface67
+    4300034: matModelOnly:pPlane40
+    4300036: matModelOnly:pPlane41
+    4300038: polySurface38
+    4300040: polySurface61
+    7400000: Take 001
+    11100000: //RootNode
+    13700000: matModelOnly:polySurface38
+    13700002: matModelOnly:polySurface54
+    13700004: matModelOnly:polySurface55
+    13700006: matModelOnly:polySurface56
+    13700008: matModelOnly:polySurface57
+    13700010: matModelOnly:polySurface58
+    13700012: matModelOnly:polySurface62
+    13700014: matModelOnly:polySurface63
+    13700016: matModelOnly:polySurface65
+    13700018: matModelOnly:polySurface67
+    13700020: matModelOnly:pPlane40
+    13700022: matModelOnly:pPlane41
+    13700024: matModelOnly:regModel_19rigBegin:polySurface23
+    13700026: polySurface23
+    13700028: polySurface38
+    13700030: polySurface61
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .119999997
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

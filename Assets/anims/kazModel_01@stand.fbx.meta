@@ -1,0 +1,438 @@
+fileFormatVersion: 2
+guid: 216cf2dc1df6db242afeab6a3ebd4548
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: b_Head
+    100002: b_Head 1
+    100004: b_Hips
+    100006: b_Hips 1
+    100008: b_IK_Foot_L
+    100010: b_IK_Foot_L 1
+    100012: b_IK_Foot_R
+    100014: b_IK_Foot_R 1
+    100016: b_IK_Foot_Root
+    100018: b_IK_Foot_Root 1
+    100020: b_IK_Gun
+    100022: b_IK_Gun 1
+    100024: b_IK_Hand_L
+    100026: b_IK_Hand_L 1
+    100028: b_IK_Hand_R
+    100030: b_IK_Hand_R 1
+    100032: b_IK_Hand_Root
+    100034: b_IK_Hand_Root 1
+    100036: b_LeftAnkle
+    100038: b_LeftAnkle 1
+    100040: b_LeftArm
+    100042: b_LeftArm 1
+    100044: b_LeftArm_Driven_ignore
+    100046: b_LeftArmRoll
+    100048: b_LeftArmRoll 1
+    100050: b_LeftClav
+    100052: b_LeftClav 1
+    100054: b_LeftForeArm
+    100056: b_LeftForeArm 1
+    100058: b_LeftForeArm 2
+    100060: b_LeftForeArmRoll
+    100062: b_LeftForeArmRoll 1
+    100064: b_LeftForeArmRoll_grp
+    100066: b_LeftHand
+    100068: b_LeftHand 1
+    100070: b_LeftHand 2
+    100072: b_LeftIndex1
+    100074: b_LeftIndex1 1
+    100076: b_LeftIndex2
+    100078: b_LeftIndex2 1
+    100080: b_LeftIndex3
+    100082: b_LeftIndex3 1
+    100084: b_LeftLeg
+    100086: b_LeftLeg 1
+    100088: b_LeftLegUpper
+    100090: b_LeftLegUpper 1
+    100092: b_LeftLegUpperRoll
+    100094: b_LeftLegUpperRoll 1
+    100096: b_LeftMiddle1
+    100098: b_LeftMiddle1 1
+    100100: b_LeftMiddle2
+    100102: b_LeftMiddle2 1
+    100104: b_LeftMilddle3
+    100106: b_LeftMilddle3 1
+    100108: b_LeftPinky1
+    100110: b_LeftPinky1 1
+    100112: b_LeftPinky2
+    100114: b_LeftPinky2 1
+    100116: b_LeftPinky3
+    100118: b_LeftPinky3 1
+    100120: b_LeftRing1
+    100122: b_LeftRing1 1
+    100124: b_LeftRing2
+    100126: b_LeftRing2 1
+    100128: b_LeftRing3
+    100130: b_LeftRing3 1
+    100132: b_LeftShoulderPad
+    100134: b_LeftShoulderPad 1
+    100136: b_LeftThumb1
+    100138: b_LeftThumb1 1
+    100140: b_LeftThumb2
+    100142: b_LeftThumb2 1
+    100144: b_LeftThumb3
+    100146: b_LeftThumb3 1
+    100148: b_LeftToe
+    100150: b_LeftToe 1
+    100152: b_LeftWeapon
+    100154: b_LeftWeapon 1
+    100156: b_Neck
+    100158: b_Neck 1
+    100160: b_RightAnkle
+    100162: b_RightAnkle 1
+    100164: b_RightAnkle_driven
+    100166: b_RightArm
+    100168: b_RightArm 1
+    100170: b_RightArmRoll
+    100172: b_RightClav
+    100174: b_RightClav 1
+    100176: b_RightForeArm
+    100178: b_RightForeArm 1
+    100180: b_RightForeArmRoll
+    100182: b_RightForeArmRoll 1
+    100184: b_RightForeArmRoll_grp
+    100186: b_RightHand
+    100188: b_RightHand 1
+    100190: b_RightIndex1
+    100192: b_RightIndex1 1
+    100194: b_RightIndex2
+    100196: b_RightIndex2 1
+    100198: b_RightIndex3
+    100200: b_RightIndex3 1
+    100202: b_RightLeg
+    100204: b_RightLeg 1
+    100206: b_RightLeg_driven
+    100208: b_RightLegUpper
+    100210: b_RightLegUpper 1
+    100212: b_RightLegUpper_driven_ignore
+    100214: b_RightLegUpperRoll
+    100216: b_RightLegUpperRoll 1
+    100218: b_RightMiddle1
+    100220: b_RightMiddle1 1
+    100222: b_RightMiddle2
+    100224: b_RightMiddle2 1
+    100226: b_RightMiddle3
+    100228: b_RightMiddle3 1
+    100230: b_RightPinky1
+    100232: b_RightPinky1 1
+    100234: b_RightPinky2
+    100236: b_RightPinky2 1
+    100238: b_RightPinky3
+    100240: b_RightPinky3 1
+    100242: b_RightRing1
+    100244: b_RightRing1 1
+    100246: b_RightRing2
+    100248: b_RightRing2 1
+    100250: b_RightRing3
+    100252: b_RightRing3 1
+    100254: b_RightShoulderPad
+    100256: b_RightShoulderPad 1
+    100258: b_RightThumb1
+    100260: b_RightThumb1 1
+    100262: b_RightThumb2
+    100264: b_RightThumb2 1
+    100266: b_RightThumb3
+    100268: b_RightThumb3 1
+    100270: b_RightToe
+    100272: b_RightToe 1
+    100274: b_RightWeapon
+    100276: b_RightWeapon 1
+    100278: b_Root
+    100280: b_Spine
+    100282: b_Spine 1
+    100284: b_Spine1
+    100286: b_Spine1 1
+    100288: b_Spine2
+    100290: b_Spine2 1
+    100292: ControllerContainer_DoNotModify
+    100294: ControllerSkeleton_b_Root_ignore
+    100296: ExportOffset
+    100298: group
+    100300: //RootNode
+    100302: L_Arm_FKIK_grp
+    100304: MasterController
+    100306: matModelOnly:group2
+    100308: matModelOnly:polySurface38
+    100310: matModelOnly:polySurface54
+    100312: matModelOnly:polySurface55
+    100314: matModelOnly:polySurface56
+    100316: matModelOnly:polySurface57
+    100318: matModelOnly:polySurface58
+    100320: matModelOnly:polySurface62
+    100322: matModelOnly:polySurface63
+    100324: matModelOnly:polySurface65
+    100326: matModelOnly:polySurface67
+    100328: matModelOnly:pPlane40
+    100330: matModelOnly:pPlane41
+    100332: matModelOnly:regModel_19rigBegin:polySurface15
+    100334: matModelOnly:regModel_19rigBegin:polySurface23
+    100336: MovementOffset
+    100338: polySurface23
+    100340: polySurface38
+    100342: polySurface61
+    100344: R_LegIKFK_scraps
+    400000: b_Head
+    400002: b_Head 1
+    400004: b_Hips
+    400006: b_Hips 1
+    400008: b_IK_Foot_L
+    400010: b_IK_Foot_L 1
+    400012: b_IK_Foot_R
+    400014: b_IK_Foot_R 1
+    400016: b_IK_Foot_Root
+    400018: b_IK_Foot_Root 1
+    400020: b_IK_Gun
+    400022: b_IK_Gun 1
+    400024: b_IK_Hand_L
+    400026: b_IK_Hand_L 1
+    400028: b_IK_Hand_R
+    400030: b_IK_Hand_R 1
+    400032: b_IK_Hand_Root
+    400034: b_IK_Hand_Root 1
+    400036: b_LeftAnkle
+    400038: b_LeftAnkle 1
+    400040: b_LeftArm
+    400042: b_LeftArm 1
+    400044: b_LeftArm_Driven_ignore
+    400046: b_LeftArmRoll
+    400048: b_LeftArmRoll 1
+    400050: b_LeftClav
+    400052: b_LeftClav 1
+    400054: b_LeftForeArm
+    400056: b_LeftForeArm 1
+    400058: b_LeftForeArm 2
+    400060: b_LeftForeArmRoll
+    400062: b_LeftForeArmRoll 1
+    400064: b_LeftForeArmRoll_grp
+    400066: b_LeftHand
+    400068: b_LeftHand 1
+    400070: b_LeftHand 2
+    400072: b_LeftIndex1
+    400074: b_LeftIndex1 1
+    400076: b_LeftIndex2
+    400078: b_LeftIndex2 1
+    400080: b_LeftIndex3
+    400082: b_LeftIndex3 1
+    400084: b_LeftLeg
+    400086: b_LeftLeg 1
+    400088: b_LeftLegUpper
+    400090: b_LeftLegUpper 1
+    400092: b_LeftLegUpperRoll
+    400094: b_LeftLegUpperRoll 1
+    400096: b_LeftMiddle1
+    400098: b_LeftMiddle1 1
+    400100: b_LeftMiddle2
+    400102: b_LeftMiddle2 1
+    400104: b_LeftMilddle3
+    400106: b_LeftMilddle3 1
+    400108: b_LeftPinky1
+    400110: b_LeftPinky1 1
+    400112: b_LeftPinky2
+    400114: b_LeftPinky2 1
+    400116: b_LeftPinky3
+    400118: b_LeftPinky3 1
+    400120: b_LeftRing1
+    400122: b_LeftRing1 1
+    400124: b_LeftRing2
+    400126: b_LeftRing2 1
+    400128: b_LeftRing3
+    400130: b_LeftRing3 1
+    400132: b_LeftShoulderPad
+    400134: b_LeftShoulderPad 1
+    400136: b_LeftThumb1
+    400138: b_LeftThumb1 1
+    400140: b_LeftThumb2
+    400142: b_LeftThumb2 1
+    400144: b_LeftThumb3
+    400146: b_LeftThumb3 1
+    400148: b_LeftToe
+    400150: b_LeftToe 1
+    400152: b_LeftWeapon
+    400154: b_LeftWeapon 1
+    400156: b_Neck
+    400158: b_Neck 1
+    400160: b_RightAnkle
+    400162: b_RightAnkle 1
+    400164: b_RightAnkle_driven
+    400166: b_RightArm
+    400168: b_RightArm 1
+    400170: b_RightArmRoll
+    400172: b_RightClav
+    400174: b_RightClav 1
+    400176: b_RightForeArm
+    400178: b_RightForeArm 1
+    400180: b_RightForeArmRoll
+    400182: b_RightForeArmRoll 1
+    400184: b_RightForeArmRoll_grp
+    400186: b_RightHand
+    400188: b_RightHand 1
+    400190: b_RightIndex1
+    400192: b_RightIndex1 1
+    400194: b_RightIndex2
+    400196: b_RightIndex2 1
+    400198: b_RightIndex3
+    400200: b_RightIndex3 1
+    400202: b_RightLeg
+    400204: b_RightLeg 1
+    400206: b_RightLeg_driven
+    400208: b_RightLegUpper
+    400210: b_RightLegUpper 1
+    400212: b_RightLegUpper_driven_ignore
+    400214: b_RightLegUpperRoll
+    400216: b_RightLegUpperRoll 1
+    400218: b_RightMiddle1
+    400220: b_RightMiddle1 1
+    400222: b_RightMiddle2
+    400224: b_RightMiddle2 1
+    400226: b_RightMiddle3
+    400228: b_RightMiddle3 1
+    400230: b_RightPinky1
+    400232: b_RightPinky1 1
+    400234: b_RightPinky2
+    400236: b_RightPinky2 1
+    400238: b_RightPinky3
+    400240: b_RightPinky3 1
+    400242: b_RightRing1
+    400244: b_RightRing1 1
+    400246: b_RightRing2
+    400248: b_RightRing2 1
+    400250: b_RightRing3
+    400252: b_RightRing3 1
+    400254: b_RightShoulderPad
+    400256: b_RightShoulderPad 1
+    400258: b_RightThumb1
+    400260: b_RightThumb1 1
+    400262: b_RightThumb2
+    400264: b_RightThumb2 1
+    400266: b_RightThumb3
+    400268: b_RightThumb3 1
+    400270: b_RightToe
+    400272: b_RightToe 1
+    400274: b_RightWeapon
+    400276: b_RightWeapon 1
+    400278: b_Root
+    400280: b_Spine
+    400282: b_Spine 1
+    400284: b_Spine1
+    400286: b_Spine1 1
+    400288: b_Spine2
+    400290: b_Spine2 1
+    400292: ControllerContainer_DoNotModify
+    400294: ControllerSkeleton_b_Root_ignore
+    400296: ExportOffset
+    400298: group
+    400300: //RootNode
+    400302: L_Arm_FKIK_grp
+    400304: MasterController
+    400306: matModelOnly:group2
+    400308: matModelOnly:polySurface38
+    400310: matModelOnly:polySurface54
+    400312: matModelOnly:polySurface55
+    400314: matModelOnly:polySurface56
+    400316: matModelOnly:polySurface57
+    400318: matModelOnly:polySurface58
+    400320: matModelOnly:polySurface62
+    400322: matModelOnly:polySurface63
+    400324: matModelOnly:polySurface65
+    400326: matModelOnly:polySurface67
+    400328: matModelOnly:pPlane40
+    400330: matModelOnly:pPlane41
+    400332: matModelOnly:regModel_19rigBegin:polySurface15
+    400334: matModelOnly:regModel_19rigBegin:polySurface23
+    400336: MovementOffset
+    400338: polySurface23
+    400340: polySurface38
+    400342: polySurface61
+    400344: R_LegIKFK_scraps
+    4300000: matModelOnly:polySurface58
+    4300002: matModelOnly:polySurface57
+    4300004: matModelOnly:polySurface56
+    4300006: matModelOnly:polySurface55
+    4300008: matModelOnly:polySurface38
+    4300010: matModelOnly:polySurface54
+    4300012: matModelOnly:regModel_19rigBegin:polySurface23
+    4300014: polySurface23
+    4300016: matModelOnly:polySurface62
+    4300018: matModelOnly:polySurface63
+    4300020: matModelOnly:polySurface65
+    4300022: matModelOnly:polySurface67
+    4300024: matModelOnly:pPlane40
+    4300026: matModelOnly:pPlane41
+    4300028: polySurface38
+    4300030: polySurface61
+    7400002: Take 001
+    11100000: //RootNode
+    13700000: matModelOnly:polySurface38
+    13700002: matModelOnly:polySurface54
+    13700004: matModelOnly:polySurface55
+    13700006: matModelOnly:polySurface56
+    13700008: matModelOnly:polySurface57
+    13700010: matModelOnly:polySurface58
+    13700012: matModelOnly:polySurface62
+    13700014: matModelOnly:polySurface63
+    13700016: matModelOnly:polySurface65
+    13700018: matModelOnly:polySurface67
+    13700020: matModelOnly:pPlane40
+    13700022: matModelOnly:pPlane41
+    13700024: matModelOnly:regModel_19rigBegin:polySurface23
+    13700026: polySurface23
+    13700028: polySurface38
+    13700030: polySurface61
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .119999997
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

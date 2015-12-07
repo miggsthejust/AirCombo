@@ -1,0 +1,1360 @@
+fileFormatVersion: 2
+guid: 88c659650699b2d469a3f070eed9f56b
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: group
+    100002: pasted__HIKCharacterNode3_Head
+    100004: pasted__HIKCharacterNode3_Hips
+    100006: pasted__HIKCharacterNode3_LeftArm
+    100008: pasted__HIKCharacterNode3_LeftFoot
+    100010: pasted__HIKCharacterNode3_LeftFootMiddle1
+    100012: pasted__HIKCharacterNode3_LeftFootMiddle2
+    100014: pasted__HIKCharacterNode3_LeftForeArm
+    100016: pasted__HIKCharacterNode3_LeftHand
+    100018: pasted__HIKCharacterNode3_LeftHandIndex1
+    100020: pasted__HIKCharacterNode3_LeftHandIndex2
+    100022: pasted__HIKCharacterNode3_LeftHandIndex3
+    100024: pasted__HIKCharacterNode3_LeftHandIndex4
+    100026: pasted__HIKCharacterNode3_LeftHandMiddle1
+    100028: pasted__HIKCharacterNode3_LeftHandMiddle2
+    100030: pasted__HIKCharacterNode3_LeftHandMiddle3
+    100032: pasted__HIKCharacterNode3_LeftHandMiddle4
+    100034: pasted__HIKCharacterNode3_LeftHandPinky1
+    100036: pasted__HIKCharacterNode3_LeftHandPinky2
+    100038: pasted__HIKCharacterNode3_LeftHandPinky3
+    100040: pasted__HIKCharacterNode3_LeftHandPinky4
+    100042: pasted__HIKCharacterNode3_LeftHandRing1
+    100044: pasted__HIKCharacterNode3_LeftHandRing2
+    100046: pasted__HIKCharacterNode3_LeftHandRing3
+    100048: pasted__HIKCharacterNode3_LeftHandRing4
+    100050: pasted__HIKCharacterNode3_LeftHandThumb1
+    100052: pasted__HIKCharacterNode3_LeftHandThumb2
+    100054: pasted__HIKCharacterNode3_LeftHandThumb3
+    100056: pasted__HIKCharacterNode3_LeftHandThumb4
+    100058: pasted__HIKCharacterNode3_LeftLeg
+    100060: pasted__HIKCharacterNode3_LeftShoulder
+    100062: pasted__HIKCharacterNode3_LeftUpLeg
+    100064: pasted__HIKCharacterNode3_Neck
+    100066: pasted__HIKCharacterNode3_Reference
+    100068: pasted__HIKCharacterNode3_RightArm
+    100070: pasted__HIKCharacterNode3_RightFoot
+    100072: pasted__HIKCharacterNode3_RightFootMiddle1
+    100074: pasted__HIKCharacterNode3_RightFootMiddle2
+    100076: pasted__HIKCharacterNode3_RightForeArm
+    100078: pasted__HIKCharacterNode3_RightHand
+    100080: pasted__HIKCharacterNode3_RightHandIndex1
+    100082: pasted__HIKCharacterNode3_RightHandIndex2
+    100084: pasted__HIKCharacterNode3_RightHandIndex3
+    100086: pasted__HIKCharacterNode3_RightHandIndex4
+    100088: pasted__HIKCharacterNode3_RightHandMiddle1
+    100090: pasted__HIKCharacterNode3_RightHandMiddle2
+    100092: pasted__HIKCharacterNode3_RightHandMiddle3
+    100094: pasted__HIKCharacterNode3_RightHandMiddle4
+    100096: pasted__HIKCharacterNode3_RightHandPinky1
+    100098: pasted__HIKCharacterNode3_RightHandPinky2
+    100100: pasted__HIKCharacterNode3_RightHandPinky3
+    100102: pasted__HIKCharacterNode3_RightHandPinky4
+    100104: pasted__HIKCharacterNode3_RightHandRing1
+    100106: pasted__HIKCharacterNode3_RightHandRing2
+    100108: pasted__HIKCharacterNode3_RightHandRing3
+    100110: pasted__HIKCharacterNode3_RightHandRing4
+    100112: pasted__HIKCharacterNode3_RightHandThumb1
+    100114: pasted__HIKCharacterNode3_RightHandThumb2
+    100116: pasted__HIKCharacterNode3_RightHandThumb3
+    100118: pasted__HIKCharacterNode3_RightHandThumb4
+    100120: pasted__HIKCharacterNode3_RightLeg
+    100122: pasted__HIKCharacterNode3_RightShoulder
+    100124: pasted__HIKCharacterNode3_RightUpLeg
+    100126: pasted__HIKCharacterNode3_Spine
+    100128: pasted__HIKCharacterNode3_Spine1
+    100130: pasted__HIKCharacterNode3_Spine2
+    100132: pasted__joint1
+    100134: pasted__joint10
+    100136: pasted__joint11
+    100138: pasted__joint12
+    100140: pasted__joint13
+    100142: pasted__joint14
+    100144: pasted__joint15
+    100146: pasted__joint16
+    100148: pasted__joint17
+    100150: pasted__joint18
+    100152: pasted__joint19
+    100154: pasted__joint2
+    100156: pasted__joint20
+    100158: pasted__joint24
+    100160: pasted__joint25
+    100162: pasted__joint26
+    100164: pasted__joint27
+    100166: pasted__joint28
+    100168: pasted__joint29
+    100170: pasted__joint30
+    100172: pasted__joint31
+    100174: pasted__joint32
+    100176: pasted__joint33
+    100178: pasted__joint34
+    100180: pasted__joint35
+    100182: pasted__joint36
+    100184: pasted__joint37
+    100186: pasted__joint39
+    100188: pasted__joint40
+    100190: pasted__joint41
+    100192: pasted__joint42
+    100194: pasted__joint43
+    100196: pasted__joint44
+    100198: pasted__joint45
+    100200: pasted__joint46
+    100202: pasted__joint47
+    100204: pasted__joint48
+    100206: pasted__joint49
+    100208: pasted__joint5
+    100210: pasted__joint6
+    100212: pasted__joint7
+    100214: pasted__joint8
+    100216: pasted__joint9
+    100218: polySurface15
+    100220: polySurface17
+    100222: polySurface19
+    100224: polySurface20
+    100226: polySurface21
+    100228: polySurface22
+    100230: polySurface26
+    100232: polySurface27
+    100234: polySurface28
+    100236: polySurface29
+    100238: polySurface30
+    100240: //RootNode
+    400000: group
+    400002: pasted__HIKCharacterNode3_Head
+    400004: pasted__HIKCharacterNode3_Hips
+    400006: pasted__HIKCharacterNode3_LeftArm
+    400008: pasted__HIKCharacterNode3_LeftFoot
+    400010: pasted__HIKCharacterNode3_LeftFootMiddle1
+    400012: pasted__HIKCharacterNode3_LeftFootMiddle2
+    400014: pasted__HIKCharacterNode3_LeftForeArm
+    400016: pasted__HIKCharacterNode3_LeftHand
+    400018: pasted__HIKCharacterNode3_LeftHandIndex1
+    400020: pasted__HIKCharacterNode3_LeftHandIndex2
+    400022: pasted__HIKCharacterNode3_LeftHandIndex3
+    400024: pasted__HIKCharacterNode3_LeftHandIndex4
+    400026: pasted__HIKCharacterNode3_LeftHandMiddle1
+    400028: pasted__HIKCharacterNode3_LeftHandMiddle2
+    400030: pasted__HIKCharacterNode3_LeftHandMiddle3
+    400032: pasted__HIKCharacterNode3_LeftHandMiddle4
+    400034: pasted__HIKCharacterNode3_LeftHandPinky1
+    400036: pasted__HIKCharacterNode3_LeftHandPinky2
+    400038: pasted__HIKCharacterNode3_LeftHandPinky3
+    400040: pasted__HIKCharacterNode3_LeftHandPinky4
+    400042: pasted__HIKCharacterNode3_LeftHandRing1
+    400044: pasted__HIKCharacterNode3_LeftHandRing2
+    400046: pasted__HIKCharacterNode3_LeftHandRing3
+    400048: pasted__HIKCharacterNode3_LeftHandRing4
+    400050: pasted__HIKCharacterNode3_LeftHandThumb1
+    400052: pasted__HIKCharacterNode3_LeftHandThumb2
+    400054: pasted__HIKCharacterNode3_LeftHandThumb3
+    400056: pasted__HIKCharacterNode3_LeftHandThumb4
+    400058: pasted__HIKCharacterNode3_LeftLeg
+    400060: pasted__HIKCharacterNode3_LeftShoulder
+    400062: pasted__HIKCharacterNode3_LeftUpLeg
+    400064: pasted__HIKCharacterNode3_Neck
+    400066: pasted__HIKCharacterNode3_Reference
+    400068: pasted__HIKCharacterNode3_RightArm
+    400070: pasted__HIKCharacterNode3_RightFoot
+    400072: pasted__HIKCharacterNode3_RightFootMiddle1
+    400074: pasted__HIKCharacterNode3_RightFootMiddle2
+    400076: pasted__HIKCharacterNode3_RightForeArm
+    400078: pasted__HIKCharacterNode3_RightHand
+    400080: pasted__HIKCharacterNode3_RightHandIndex1
+    400082: pasted__HIKCharacterNode3_RightHandIndex2
+    400084: pasted__HIKCharacterNode3_RightHandIndex3
+    400086: pasted__HIKCharacterNode3_RightHandIndex4
+    400088: pasted__HIKCharacterNode3_RightHandMiddle1
+    400090: pasted__HIKCharacterNode3_RightHandMiddle2
+    400092: pasted__HIKCharacterNode3_RightHandMiddle3
+    400094: pasted__HIKCharacterNode3_RightHandMiddle4
+    400096: pasted__HIKCharacterNode3_RightHandPinky1
+    400098: pasted__HIKCharacterNode3_RightHandPinky2
+    400100: pasted__HIKCharacterNode3_RightHandPinky3
+    400102: pasted__HIKCharacterNode3_RightHandPinky4
+    400104: pasted__HIKCharacterNode3_RightHandRing1
+    400106: pasted__HIKCharacterNode3_RightHandRing2
+    400108: pasted__HIKCharacterNode3_RightHandRing3
+    400110: pasted__HIKCharacterNode3_RightHandRing4
+    400112: pasted__HIKCharacterNode3_RightHandThumb1
+    400114: pasted__HIKCharacterNode3_RightHandThumb2
+    400116: pasted__HIKCharacterNode3_RightHandThumb3
+    400118: pasted__HIKCharacterNode3_RightHandThumb4
+    400120: pasted__HIKCharacterNode3_RightLeg
+    400122: pasted__HIKCharacterNode3_RightShoulder
+    400124: pasted__HIKCharacterNode3_RightUpLeg
+    400126: pasted__HIKCharacterNode3_Spine
+    400128: pasted__HIKCharacterNode3_Spine1
+    400130: pasted__HIKCharacterNode3_Spine2
+    400132: pasted__joint1
+    400134: pasted__joint10
+    400136: pasted__joint11
+    400138: pasted__joint12
+    400140: pasted__joint13
+    400142: pasted__joint14
+    400144: pasted__joint15
+    400146: pasted__joint16
+    400148: pasted__joint17
+    400150: pasted__joint18
+    400152: pasted__joint19
+    400154: pasted__joint2
+    400156: pasted__joint20
+    400158: pasted__joint24
+    400160: pasted__joint25
+    400162: pasted__joint26
+    400164: pasted__joint27
+    400166: pasted__joint28
+    400168: pasted__joint29
+    400170: pasted__joint30
+    400172: pasted__joint31
+    400174: pasted__joint32
+    400176: pasted__joint33
+    400178: pasted__joint34
+    400180: pasted__joint35
+    400182: pasted__joint36
+    400184: pasted__joint37
+    400186: pasted__joint39
+    400188: pasted__joint40
+    400190: pasted__joint41
+    400192: pasted__joint42
+    400194: pasted__joint43
+    400196: pasted__joint44
+    400198: pasted__joint45
+    400200: pasted__joint46
+    400202: pasted__joint47
+    400204: pasted__joint48
+    400206: pasted__joint49
+    400208: pasted__joint5
+    400210: pasted__joint6
+    400212: pasted__joint7
+    400214: pasted__joint8
+    400216: pasted__joint9
+    400218: polySurface15
+    400220: polySurface17
+    400222: polySurface19
+    400224: polySurface20
+    400226: polySurface21
+    400228: polySurface22
+    400230: polySurface26
+    400232: polySurface27
+    400234: polySurface28
+    400236: polySurface29
+    400238: polySurface30
+    400240: //RootNode
+    4300000: polySurface17
+    4300002: polySurface19
+    4300004: polySurface20
+    4300006: polySurface21
+    4300008: polySurface22
+    4300010: polySurface26
+    4300012: polySurface27
+    4300014: polySurface28
+    4300016: polySurface29
+    4300018: polySurface30
+    7400000: Take 001
+    11100000: //RootNode
+    13700000: polySurface17
+    13700002: polySurface19
+    13700004: polySurface20
+    13700006: polySurface21
+    13700008: polySurface22
+    13700010: polySurface26
+    13700012: polySurface27
+    13700014: polySurface28
+    13700016: polySurface29
+    13700018: polySurface30
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .800000012
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    human:
+    - boneName: pasted__HIKCharacterNode3_Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_Spine1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_Spine2
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_LeftFootMiddle1
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_RightFootMiddle1
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__joint2
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__joint1
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__joint44
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_LeftHandRing1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_LeftHandRing2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_LeftHandRing3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_LeftHandPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_LeftHandPinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_LeftHandPinky3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_RightHandRing1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_RightHandRing2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_RightHandRing3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_RightHandPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_RightHandPinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: pasted__HIKCharacterNode3_RightHandPinky3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: regModel(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: group
+      position: {x: .57120651, y: 6.15361309, z: 1.06357563}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_Reference
+      position: {x: -.57120651, y: -6.15361309, z: -1.06357563}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_Hips
+      position: {x: 0, y: 6.6129694, z: -.0773079395}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_LeftUpLeg
+      position: {x: -1.02024508, y: -.464510918, z: .230027258}
+      rotation: {x: -.00770614482, y: -.00354702771, z: .0830264762, w: .996511281}
+      scale: {x: .999999821, y: 1, z: .999999821}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_LeftLeg
+      position: {x: -1.01047051, y: -2.54499102, z: .460053891}
+      rotation: {x: .0851298347, y: -.0351535007, z: -.2082019, w: .973739803}
+      scale: {x: 1.00000012, y: 1, z: .999999762}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_LeftFoot
+      position: {x: .21858263, y: -2.79894304, z: -.0718624815}
+      rotation: {x: -.0788136721, y: -.0257455986, z: -.0465337485, w: .995469868}
+      scale: {x: 1.00000012, y: .999999881, z: .999999881}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_LeftFootMiddle1
+      position: {x: -.0815829113, y: -.679189146, z: 1.86253691}
+      rotation: {x: -.00159321167, y: .00981928781, z: -.000305269816, w: .999950469}
+      scale: {x: 1, y: .99999994, z: 1}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_LeftFootMiddle2
+      position: {x: -.0301432721, y: -.0488727801, z: .464882821}
+      rotation: {x: -4.21799973e-09, y: 4.57933469e-09, z: 1.89277394e-08, w: 1}
+      scale: {x: 1, y: 1, z: .99999994}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_RightUpLeg
+      position: {x: 1.02024531, y: -.464510918, z: .230027318}
+      rotation: {x: -.0054032933, y: .0135327494, z: -.0793137029, w: .996743202}
+      scale: {x: 1.00000072, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_RightLeg
+      position: {x: 1.01047039, y: -2.54498911, z: .460054547}
+      rotation: {x: .0754748881, y: .0121471528, z: .153386787, w: .985204816}
+      scale: {x: .999999762, y: .999999702, z: 1}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_RightFoot
+      position: {x: 1.56791188e-07, y: -2.80165005, z: -.0718624145}
+      rotation: {x: -.0572069809, y: .0136802988, z: .053661678, w: .996825278}
+      scale: {x: 1.00000012, y: 1, z: 1}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_RightFootMiddle1
+      position: {x: .102514029, y: -.629754782, z: 1.8802036}
+      rotation: {x: 1.09082632e-09, y: -5.51797108e-10, z: -7.05449965e-09, w: 1}
+      scale: {x: 1, y: .99999994, z: 1}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_RightFootMiddle2
+      position: {x: -.0116410926, y: .0138130197, z: .468094707}
+      rotation: {x: 9.48137902e-10, y: 1.53147439e-09, z: 7.68576758e-09, w: 1}
+      scale: {x: 1.00000012, y: 1, z: 1}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_Spine
+      position: {x: 0, y: 1.08398151, z: -.219669104}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_Spine1
+      position: {x: 0, y: 1.23624706, z: -.194461465}
+      rotation: {x: -.0201887209, y: .000113051268, z: .00182074402, w: .999794602}
+      scale: {x: 1, y: .999999881, z: 1}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_Spine2
+      position: {x: .00163628405, y: 1.6535809, z: .368150264}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: .99999994, z: 1}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_LeftShoulder
+      position: {x: -1.43416452, y: .45148468, z: -.0882160068}
+      rotation: {x: -8.25883253e-05, y: -.0244768485, z: -.0519372374, w: .998350382}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_LeftArm
+      position: {x: -1.39113402, y: -.589782596, z: .280163199}
+      rotation: {x: -.0364369005, y: .0466074869, z: -.308175862, w: .949488223}
+      scale: {x: 1, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_LeftForeArm
+      position: {x: -1.18072605, y: -1.17452884, z: -.106881239}
+      rotation: {x: .170020431, y: .0371491909, z: -.00990558509, w: .984690309}
+      scale: {x: 1.00000012, y: 1, z: .999999881}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_LeftHand
+      position: {x: -1.34927654, y: -1.37144172, z: .245597482}
+      rotation: {x: -.155155614, y: -.0695481673, z: .380901188, w: .90884763}
+      scale: {x: 1, y: 1.00000012, z: .99999994}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_LeftHandIndex1
+      position: {x: -.950359583, y: -.14934884, z: .525568306}
+      rotation: {x: .128663272, y: .0694291294, z: .0777666718, w: .986193597}
+      scale: {x: 1.00000036, y: 1, z: 1}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_LeftHandIndex2
+      position: {x: -.308647573, y: -.00100837019, z: .00828693062}
+      rotation: {x: -.0232037827, y: -.00438830536, z: -.0135666449, w: .99962908}
+      scale: {x: .999999762, y: .999999881, z: 1.00000012}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_LeftHandIndex3
+      position: {x: -.280737907, y: -.0316381902, z: .00577955414}
+      rotation: {x: .028114941, y: -2.77109424e-09, z: 3.72299169e-08, w: .999604762}
+      scale: {x: .999999881, y: .99999994, z: 1.00000012}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_LeftHandIndex4
+      position: {x: -.288587481, y: -.0337109081, z: .00503645232}
+      rotation: {x: 2.71269784e-09, y: 6.76076262e-09, z: 2.17671321e-08, w: 1}
+      scale: {x: 1.00000012, y: .99999994, z: 1}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_LeftHandMiddle1
+      position: {x: -.961596191, y: -.159932017, z: .235420719}
+      rotation: {x: -.0295856595, y: .0474553742, z: .0633550808, w: .996423006}
+      scale: {x: .99999994, y: .99999994, z: 1}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_LeftHandMiddle2
+      position: {x: -.359038144, y: 2.15031946e-06, z: -.00732873054}
+      rotation: {x: 4.06949141e-10, y: 1.76980652e-08, z: -3.04969028e-08, w: 1}
+      scale: {x: 1.00000012, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_LeftHandMiddle3
+      position: {x: -.315836519, y: -.0190099534, z: 1.27558715e-05}
+      rotation: {x: -.0318997465, y: -.00892965216, z: -.00391992228, w: .999443531}
+      scale: {x: 1.00000024, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_LeftHandMiddle4
+      position: {x: -.264736056, y: -.0303135943, z: -.0146691352}
+      rotation: {x: 2.43330667e-09, y: -9.30560429e-09, z: -7.88079824e-09, w: 1}
+      scale: {x: .99999994, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_LeftHandPinky1
+      position: {x: -.958613992, y: -.278745413, z: -.39542377}
+      rotation: {x: -.268701315, y: .0400582366, z: .114106469, w: .955601752}
+      scale: {x: 1, y: 1.00000012, z: .99999994}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_LeftHandPinky2
+      position: {x: -.223990336, y: .00191674556, z: -.00708334288}
+      rotation: {x: -.0154398354, y: -.0200945511, z: .0642329752, w: .997613132}
+      scale: {x: .999999881, y: .999999762, z: .999999881}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_LeftHandPinky3
+      position: {x: -.179813936, y: .0162602272, z: .0136359194}
+      rotation: {x: -.000273599901, y: .0323080495, z: -.0088336831, w: .999438941}
+      scale: {x: .99999994, y: 1, z: 1}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_LeftHandPinky4
+      position: {x: -.198520094, y: -.00180089741, z: -.000274503662}
+      rotation: {x: -1.64050178e-08, y: -2.14031317e-08, z: 2.37291999e-08, w: 1}
+      scale: {x: 1.00000024, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_LeftHandRing1
+      position: {x: -.959170103, y: -.171230599, z: -.108426698}
+      rotation: {x: -.121233761, y: .0159362555, z: .0578307845, w: .990809798}
+      scale: {x: 1.00000012, y: 1, z: .99999994}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_LeftHandRing2
+      position: {x: -.342904985, y: -.0389373079, z: .0067879688}
+      rotation: {x: -.0644294992, y: -.0318999961, z: .00259589939, w: .997408926}
+      scale: {x: 1.00000012, y: 1, z: 1}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_LeftHandRing3
+      position: {x: -.339134544, y: -.0472616665, z: .017706098}
+      rotation: {x: -.000171812382, y: .00513222488, z: .033474192, w: .999426365}
+      scale: {x: .999999702, y: 1, z: 1}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_LeftHandRing4
+      position: {x: -.2492643, y: -.02834161, z: .0106105311}
+      rotation: {x: -2.50011869e-08, y: 1.22409149e-08, z: 6.36115116e-09, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_LeftHandThumb1
+      position: {x: -.231372252, y: -.150526375, z: .45454514}
+      rotation: {x: .736817479, y: .411397815, z: -.344444513, w: .411351174}
+      scale: {x: .999999821, y: .999999821, z: .99999994}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_LeftHandThumb2
+      position: {x: -.24135606, y: 1.3868796e-06, z: -8.38010578e-07}
+      rotation: {x: -.0397810191, y: .019188853, z: -.0312635973, w: .998534858}
+      scale: {x: 1, y: 1.00000012, z: .999999762}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_LeftHandThumb3
+      position: {x: -.304455638, y: .00143040507, z: .00298986374}
+      rotation: {x: .0119051412, y: -.0219846312, z: -.0311754085, w: .999201179}
+      scale: {x: 1.00000012, y: .999999821, z: 1.0000006}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_LeftHandThumb4
+      position: {x: -.372591585, y: -.0369731113, z: .0466868468}
+      rotation: {x: .0387515314, y: -.0327802189, z: -.0883949772, w: .994791567}
+      scale: {x: .999999762, y: 1, z: .999999404}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_Neck
+      position: {x: .00578370318, y: .785640955, z: 1.07746303}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_Head
+      position: {x: .00525269285, y: .955145836, z: .423137903}
+      rotation: {x: -.0190977864, y: .821394384, z: -.0284250341, w: .569331706}
+      scale: {x: .999999702, y: .999999821, z: .999999583}
+      transformModified: 1
+    - name: pasted__joint1
+      position: {x: -.89285475, y: -.012030175, z: .0788725764}
+      rotation: {x: -.0759991333, y: -.818338215, z: .0571218096, w: .566818953}
+      scale: {x: 1.00000048, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: pasted__joint7
+      position: {x: -.00374170602, y: -.00143747334, z: .357651979}
+      rotation: {x: .0188568849, y: .999822259, z: 3.87939991e-09, w: 2.51994869e-08}
+      scale: {x: .999999642, y: .999999762, z: .999999523}
+      transformModified: 1
+    - name: pasted__joint48
+      position: {x: .295304537, y: .000122036879, z: -6.40685073e-07}
+      rotation: {x: .0756826103, y: -.996663094, z: .0304852389, w: -.00235275365}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pasted__joint2
+      position: {x: -.62012285, y: .00352962757, z: -.648825288}
+      rotation: {x: .0612081252, y: .566392243, z: .0946987793, w: .816385686}
+      scale: {x: 1, y: 1.00000024, z: .99999994}
+      transformModified: 1
+    - name: pasted__joint8
+      position: {x: 9.6078249e-05, y: .000607989961, z: -.357650131}
+      rotation: {x: -.0210182816, y: -.999779165, z: -1.24497053e-08, w: 3.94224706e-08}
+      scale: {x: .999999821, y: 1, z: 1}
+      transformModified: 1
+    - name: pasted__joint49
+      position: {x: .306082398, y: -.00619330909, z: 1.73155641e-07}
+      rotation: {x: .0468623117, y: -.705552161, z: .0809757635, w: .702454925}
+      scale: {x: 1.00000024, y: 1, z: 1}
+      transformModified: 1
+    - name: pasted__joint5
+      position: {x: -.701730072, y: -.201399773, z: .0104336552}
+      rotation: {x: .000413147733, y: -.106619939, z: .0043513733, w: .994290292}
+      scale: {x: .999999821, y: 1.00000048, z: 1.00000036}
+      transformModified: 1
+    - name: pasted__joint6
+      position: {x: -.211314961, y: -.00757777598, z: -.0290454589}
+      rotation: {x: .00196616584, y: -.0723558143, z: -.0286066532, w: .9969666}
+      scale: {x: .999999881, y: .999999881, z: .999999523}
+      transformModified: 1
+    - name: pasted__joint37
+      position: {x: -.185442492, y: -2.95243268e-07, z: .0331252106}
+      rotation: {x: -.00559799327, y: .173897848, z: .0255986936, w: .984414995}
+      scale: {x: 1.00000048, y: 1, z: 1.00000024}
+      transformModified: 1
+    - name: pasted__joint24
+      position: {x: -.265985936, y: .0254265592, z: -.00484089972}
+      rotation: {x: .0100763254, y: -.0716777742, z: -.140344247, w: .987453401}
+      scale: {x: 1, y: .999999642, z: .999999583}
+      transformModified: 1
+    - name: pasted__joint39
+      position: {x: -.157440603, y: -1.80374104e-06, z: -1.3383e-07}
+      rotation: {x: -.000109415916, y: -.00439967727, z: .365232944, w: .930905819}
+      scale: {x: 1.00000036, y: .99999994, z: 1.00000012}
+      transformModified: 1
+    - name: pasted__joint25
+      position: {x: -.268826872, y: -.0516379774, z: -.00161096791}
+      rotation: {x: -.00445864117, y: -.0722450837, z: .0599245876, w: .99557519}
+      scale: {x: 1, y: .99999994, z: .999999642}
+      transformModified: 1
+    - name: pasted__joint40
+      position: {x: -.149167299, y: 5.36253356e-06, z: -1.08423193e-09}
+      rotation: {x: .00445864443, y: .0722450837, z: -.0599245876, w: .99557519}
+      scale: {x: 1.00000012, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: pasted__joint9
+      position: {x: -.194783062, y: -.813010335, z: -.0753761753}
+      rotation: {x: -.0344256908, y: -.324265957, z: .107161008, w: .939245999}
+      scale: {x: .999999881, y: .999999762, z: 1.00000048}
+      transformModified: 1
+    - name: pasted__joint10
+      position: {x: .24318558, y: -.0833666176, z: -.0813352764}
+      rotation: {x: .111087054, y: .799098611, z: -.0605740547, w: .58773464}
+      scale: {x: .999999821, y: 1, z: .999999881}
+      transformModified: 1
+    - name: pasted__joint11
+      position: {x: -.0119913742, y: -.317308754, z: -1.12724006}
+      rotation: {x: -4.66120165e-09, y: -1.91031333e-08, z: -.00240637595, w: .999997139}
+      scale: {x: 1.00000036, y: 1.00000012, z: 1.00000036}
+      transformModified: 1
+    - name: pasted__joint26
+      position: {x: .210955665, y: .174628735, z: .100227587}
+      rotation: {x: .354097068, y: -.612058222, z: -.37654689, w: .598508596}
+      scale: {x: .999999881, y: .999999583, z: .999999404}
+      transformModified: 1
+    - name: pasted__joint27
+      position: {x: -.140427679, y: -.119887866, z: .0464908816}
+      rotation: {x: -.0927361175, y: .152298376, z: .505147994, w: .844411552}
+      scale: {x: .999999642, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: pasted__joint28
+      position: {x: -.197435617, y: .189779282, z: .100231059}
+      rotation: {x: .354097068, y: -.612058222, z: -.37654689, w: .598508596}
+      scale: {x: .999999821, y: .999999762, z: .999999642}
+      transformModified: 1
+    - name: pasted__joint29
+      position: {x: -.140402138, y: -.119907387, z: -.0464911684}
+      rotation: {x: -.0927361175, y: .152298376, z: .505147994, w: .844411552}
+      scale: {x: .999999702, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: pasted__joint12
+      position: {x: -.655893207, y: .534941196, z: .238844544}
+      rotation: {x: .0265052412, y: .149973854, z: -.0439111739, w: .98735863}
+      scale: {x: .999999762, y: 1.00000036, z: 1.00000012}
+      transformModified: 1
+    - name: pasted__joint34
+      position: {x: -.22297959, y: -.0257200357, z: 1.94738838e-08}
+      rotation: {x: -2.79218049e-09, y: 8.0985163e-10, z: .0689381436, w: .997621}
+      scale: {x: 1, y: .999999881, z: .999999881}
+      transformModified: 1
+    - name: pasted__joint13
+      position: {x: -.125526309, y: .377669334, z: .569883406}
+      rotation: {x: .000595679448, y: .153583199, z: -.211370394, w: .965263963}
+      scale: {x: .999999762, y: 1.00000024, z: 1}
+      transformModified: 1
+    - name: pasted__joint35
+      position: {x: -.426013172, y: -.0893990025, z: -.00113339094}
+      rotation: {x: -.000595673861, y: -.153583169, z: .211370394, w: .965263963}
+      scale: {x: .99999994, y: .999999881, z: .999999583}
+      transformModified: 1
+    - name: pasted__joint14
+      position: {x: -.408672482, y: .440801978, z: -.349057615}
+      rotation: {x: .0142377038, y: .151631087, z: -.123953536, w: .980530918}
+      scale: {x: .999999702, y: 1.00000036, z: 1.00000024}
+      transformModified: 1
+    - name: pasted__joint36
+      position: {x: -.436826736, y: -.0118901841, z: 1.98313316e-07}
+      rotation: {x: -.0142376935, y: -.151631087, z: .123953521, w: .980530918}
+      scale: {x: .99999994, y: 1, z: .999999762}
+      transformModified: 1
+    - name: pasted__joint15
+      position: {x: -.541978955, y: .162889689, z: .455787569}
+      rotation: {x: .020585252, y: .15433605, z: -.0311972797, w: .987311244}
+      scale: {x: .999999881, y: .99999994, z: 1.00000012}
+      transformModified: 1
+    - name: pasted__joint16
+      position: {x: -.225655332, y: .0547678657, z: -.0189316105}
+      rotation: {x: -.106953174, y: -.794352472, z: .0808113441, w: .592481911}
+      scale: {x: 1.00000024, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: pasted__joint32
+      position: {x: -.174330741, y: 2.11410315e-06, z: .0930137783}
+      rotation: {x: .00791459158, y: .591114163, z: .164962038, w: .789499223}
+      scale: {x: .99999994, y: .999999642, z: .999999762}
+      transformModified: 1
+    - name: pasted__joint17
+      position: {x: -.70218581, y: .196518347, z: -.0516510345}
+      rotation: {x: -.167579174, y: .0154573182, z: -.173834428, w: .970288575}
+      scale: {x: .999999702, y: 1.00000048, z: .999999821}
+      transformModified: 1
+    - name: pasted__joint18
+      position: {x: -.228569582, y: -.0259221848, z: .0150840096}
+      rotation: {x: .104432546, y: .788956225, z: .273244351, w: .540351212}
+      scale: {x: .999999642, y: 1, z: .999999702}
+      transformModified: 1
+    - name: pasted__joint33
+      position: {x: -.178846955, y: 5.80459664e-06, z: -.0930148885}
+      rotation: {x: -.0195598714, y: -.806311786, z: .114615962, w: .579949856}
+      scale: {x: 1.00000072, y: 1.00000048, z: 1.00000048}
+      transformModified: 1
+    - name: pasted__joint19
+      position: {x: -.451840758, y: .171002373, z: .15096958}
+      rotation: {x: .0147693353, y: .151580229, z: -.120514378, w: .980959535}
+      scale: {x: .999999702, y: 1.00000036, z: 1}
+      transformModified: 1
+    - name: pasted__joint31
+      position: {x: -.322765768, y: -2.9889884e-06, z: 1.24169517e-07}
+      rotation: {x: -.0147693288, y: -.151580274, z: .120514408, w: .980959594}
+      scale: {x: .999999821, y: .999999762, z: .99999994}
+      transformModified: 1
+    - name: pasted__joint20
+      position: {x: -.435018629, y: .00243814709, z: .13420625}
+      rotation: {x: .0168370176, y: .151364505, z: -.107113153, w: .982513189}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pasted__joint30
+      position: {x: -.346727699, y: -4.43542319e-07, z: 9.67198446e-08}
+      rotation: {x: -.0168370008, y: -.151364475, z: .107113138, w: .982513189}
+      scale: {x: .99999994, y: 1, z: 1}
+      transformModified: 1
+    - name: pasted__joint41
+      position: {x: -.53010565, y: -.200045958, z: -.447562337}
+      rotation: {x: .000413147733, y: -.106619939, z: .0043513733, w: .994290292}
+      scale: {x: .999999821, y: 1.00000048, z: 1.00000024}
+      transformModified: 1
+    - name: pasted__joint42
+      position: {x: -.210198238, y: -.00755454041, z: -.036250405}
+      rotation: {x: .00196616584, y: -.0723558143, z: -.0286066532, w: .9969666}
+      scale: {x: .999999881, y: .99999994, z: .999999642}
+      transformModified: 1
+    - name: pasted__joint43
+      position: {x: -.184835017, y: 2.73478418e-05, z: -.0363598615}
+      rotation: {x: -.00559799327, y: .173897848, z: .0255986936, w: .984414995}
+      scale: {x: 1.00000048, y: 1, z: 1.00000036}
+      transformModified: 1
+    - name: pasted__joint44
+      position: {x: -.254992932, y: .0254618172, z: -.0758375823}
+      rotation: {x: .0100763254, y: -.0716777742, z: -.140344247, w: .987453401}
+      scale: {x: 1, y: .999999762, z: .999999762}
+      transformModified: 1
+    - name: pasted__joint45
+      position: {x: -.157422483, y: 2.14148768e-05, z: -.00260451972}
+      rotation: {x: -.000109415916, y: -.00439967727, z: .365232944, w: .930905819}
+      scale: {x: 1.00000048, y: .999999881, z: 1.00000024}
+      transformModified: 1
+    - name: pasted__joint46
+      position: {x: -.256715089, y: -.0515834093, z: -.0798317418}
+      rotation: {x: -.00445864117, y: -.0722450837, z: .0599245876, w: .99557519}
+      scale: {x: 1, y: .999999881, z: .999999762}
+      transformModified: 1
+    - name: pasted__joint47
+      position: {x: -.149144769, y: -5.50325021e-05, z: -.00262158248}
+      rotation: {x: .00445864443, y: .0722450837, z: -.0599245876, w: .99557519}
+      scale: {x: 1.00000012, y: 1.00000036, z: 1.00000024}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_RightShoulder
+      position: {x: 1.43309784, y: .444661856, z: -.0877982378}
+      rotation: {x: 5.48587814e-05, y: .016186608, z: .0324372426, w: .99934268}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_RightArm
+      position: {x: 1.46084356, y: -.561464548, z: .277708024}
+      rotation: {x: -.0527047813, y: -.0874047279, z: -.0295835882, w: .994337738}
+      scale: {x: .99999994, y: 1, z: .99999994}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_RightForeArm
+      position: {x: 1.47350109, y: -.0830603838, z: -.223942384}
+      rotation: {x: .0465185046, y: .14252317, z: -.453672826, w: .878466904}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_RightHand
+      position: {x: 1.2099632, y: 1.64937532, z: .304379344}
+      rotation: {x: -.0196315944, y: -.0362227187, z: .0339149572, w: .998575151}
+      scale: {x: .99999994, y: .999999881, z: .99999994}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_RightHandIndex1
+      position: {x: .639926434, y: .827250838, z: .442981303}
+      rotation: {x: -.0653801188, y: -.0763882846, z: .747678638, w: -.656404614}
+      scale: {x: .999999404, y: .999999702, z: 1.00000012}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_RightHandIndex2
+      position: {x: -.222121775, y: .159706548, z: .0159038231}
+      rotation: {x: .0557908192, y: .010783419, z: -.335821748, w: .940210044}
+      scale: {x: 1, y: .999999881, z: .999999762}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_RightHandIndex3
+      position: {x: -.345432967, y: .00298725907, z: -.0122753885}
+      rotation: {x: .0252267681, y: -.00509124482, z: -.0347766988, w: .99906373}
+      scale: {x: 1, y: 1.00000024, z: 1.00000024}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_RightHandIndex4
+      position: {x: -.270754308, y: -.0375225544, z: .00209498499}
+      rotation: {x: 2.51931209e-09, y: -4.11123668e-09, z: -5.48124923e-08, w: 1}
+      scale: {x: .99999994, y: .99999994, z: 1}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_RightHandMiddle1
+      position: {x: .701989293, y: .75496608, z: .133605331}
+      rotation: {x: -.211968452, y: .155272529, z: .713275731, w: -.649767339}
+      scale: {x: .999999702, y: .999999881, z: .99999994}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_RightHandMiddle2
+      position: {x: -.284545571, y: .199576437, z: -.113732047}
+      rotation: {x: -.0515940748, y: -.146764398, z: -.358958542, w: .920297265}
+      scale: {x: 1.00000024, y: .999999881, z: 1}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_RightHandMiddle3
+      position: {x: -.344325602, y: -.0161699224, z: -.0074455142}
+      rotation: {x: -2.01799821e-09, y: 2.28686794e-08, z: -2.6844722e-09, w: 1}
+      scale: {x: 1.00000012, y: 1.00000036, z: 1}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_RightHandMiddle4
+      position: {x: -.285059929, y: -.0327469334, z: -.00918972865}
+      rotation: {x: -1.11010605e-08, y: 7.97182587e-09, z: -1.588225e-09, w: 1}
+      scale: {x: .999999881, y: .99999994, z: 1}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_RightHandPinky1
+      position: {x: .841305852, y: .487348109, z: -.384595215}
+      rotation: {x: -.370880425, y: -.186379388, z: .325798124, w: .849450469}
+      scale: {x: 1, y: .999999821, z: .999999821}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_RightHandPinky2
+      position: {x: .248343483, y: .00442896038, z: -.0167604983}
+      rotation: {x: .00807542074, y: -.00431167986, z: .0407744497, w: .999126494}
+      scale: {x: .999999881, y: .99999994, z: .999999881}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_RightHandPinky3
+      position: {x: .215819329, y: -.0296249278, z: -.020945752}
+      rotation: {x: 1.12693712e-07, y: -7.0274439e-11, z: -1.06391184e-07, w: 1}
+      scale: {x: 1, y: 1.00000012, z: .99999994}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_RightHandPinky4
+      position: {x: .181432426, y: -.0146311224, z: -.020997772}
+      rotation: {x: -4.63470933e-08, y: 1.37715706e-08, z: 1.20330208e-08, w: 1}
+      scale: {x: 1.00000036, y: .999999702, z: .999999821}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_RightHandRing1
+      position: {x: .762386918, y: .641744018, z: -.157371283}
+      rotation: {x: -.226651534, y: -.0874637887, z: .312724143, w: .918249786}
+      scale: {x: 1.00000036, y: 1, z: 1.00000024}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_RightHandRing2
+      position: {x: .369174123, y: .0360555798, z: .00427472452}
+      rotation: {x: -.0475929193, y: -.023463849, z: .0896536261, w: .994558513}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_RightHandRing3
+      position: {x: .3083691, y: -.0473244078, z: -.0177145712}
+      rotation: {x: -1.11137091e-08, y: -2.52285872e-08, z: 2.04507735e-08, w: 1}
+      scale: {x: .999999821, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_RightHandRing4
+      position: {x: .243929267, y: -.0275949147, z: -.0146558713}
+      rotation: {x: -2.29489565e-08, y: 1.64674478e-08, z: 2.72232392e-09, w: 1}
+      scale: {x: .99999994, y: 1, z: .99999994}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_RightHandThumb1
+      position: {x: .220375285, y: .179516643, z: .446201116}
+      rotation: {x: -.648216307, y: -.261104226, z: .404488593, w: .589940071}
+      scale: {x: 1.00000012, y: .999999881, z: 1}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_RightHandThumb2
+      position: {x: .0729972571, y: -.188052773, z: -.0467016287}
+      rotation: {x: -.825880647, y: .531397283, z: -.0129939923, w: .188067347}
+      scale: {x: .999999702, y: .999999821, z: 1}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_RightHandThumb3
+      position: {x: .258717865, y: .0349381529, z: -.0101742046}
+      rotation: {x: .0592512861, y: -.0146789504, z: -.106298923, w: -.99245882}
+      scale: {x: .99999994, y: 1, z: 1.00000024}
+      transformModified: 1
+    - name: pasted__HIKCharacterNode3_RightHandThumb4
+      position: {x: .389961332, y: -.0585699752, z: -.000204097567}
+      rotation: {x: 5.17065359e-08, y: 5.93697393e-08, z: 1.86480498e-09, w: 1}
+      scale: {x: .999999881, y: .99999994, z: 1.00000012}
+      transformModified: 1
+    - name: polySurface15
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: polySurface17
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: polySurface19
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: polySurface20
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: polySurface21
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: polySurface22
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: polySurface26
+      position: {x: -11.1479025, y: 0, z: 0}
+      rotation: {x: 1, y: 0, z: -0, w: 6.12323426e-17}
+      scale: {x: -1, y: -1, z: -1}
+      transformModified: 1
+    - name: polySurface27
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: polySurface28
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: polySurface29
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: polySurface30
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 1611f9d7cd5967b43a1d752b16ab35f0,
+    type: 3}
+  animationType: 3
+  additionalBone: 0
+  userData: 
