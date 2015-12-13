@@ -284,7 +284,7 @@ public class Main : MonoBehaviour
 				}
 				else if (!bChooseChar && !begun)
 				{
-					if(netPlay)
+					/*if(netPlay)
 					{
 						if (netManage.netTagged)
 						{
@@ -304,9 +304,9 @@ public class Main : MonoBehaviour
 						}
 					}
 					else
-					{
+					{*/
 						LoadFighters();
-					}
+					//}
 				}
 			}
 		}
@@ -315,7 +315,7 @@ public class Main : MonoBehaviour
 
 	public void ReadyForReset()
 	{
-		netManage.SendReset();
+		//netManage.SendReset();
 	}
 	
 	public void resetTimer()
@@ -411,7 +411,7 @@ public class Main : MonoBehaviour
 			cHeight.comboActive = true;
 			if (netPlay)
 			{
-				netManage.startSetFighters();
+				//netManage.startSetFighters();
 			}
 			else 
 			{
@@ -441,7 +441,7 @@ public class Main : MonoBehaviour
 		if (Network.isServer)
 		{
 			p1Control.hype.hypeAmount = 0;
-			netManage.SendSpectatorRematch();
+			//netManage.SendSpectatorRematch();
 		}
 		yield return new WaitForSeconds(2.0f);
 		RestartRound();
@@ -678,8 +678,8 @@ public class Main : MonoBehaviour
 		hyb1.bActive = false;
 		hyb2.bActive = false;
 		introDone = false;
-		netManage.bStarted = false;
-		netManage.netTagged = false;
+		//netManage.bStarted = false;
+		//netManage.netTagged = false;
 		gameEndMenu = false;
 		rEnd.pOneRounds = 0;
 		rEnd.pTwoRounds = 0;
@@ -710,7 +710,7 @@ public class Main : MonoBehaviour
 	
 	public void Disconnect()
 	{
-		netManage.Disconnect();
+		//netManage.Disconnect();
 	}
 	
 	public void ChooseChars()
@@ -728,7 +728,7 @@ public class Main : MonoBehaviour
 	public void SendNetCharChange()
 	{
 		//send opponent to character change screen
-		netManage.SendNetCharChange();	
+		//netManage.SendNetCharChange();	
 	}
 	
 	public void RematchPress()
@@ -738,11 +738,11 @@ public class Main : MonoBehaviour
 			if (Network.isServer)
 			{
 				servRematch = true;
-				netManage.SendRematch();
+				//netManage.SendRematch();
 			}
 			else
 			{
-				netManage.SendRematch();
+				//netManage.SendRematch();
 				clientRematch = true;
 			}
 		}
