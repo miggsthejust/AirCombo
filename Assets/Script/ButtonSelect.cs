@@ -4,7 +4,6 @@ using System.Collections;
 public class ButtonSelect : MonoBehaviour 
 {
 	public PlayerInput pInput;
-	public CharSelect charSel;
 	
 	public string upButton;
 	public string downButton;
@@ -55,7 +54,7 @@ public class ButtonSelect : MonoBehaviour
 			if (Input.GetKey("escape"))
 			{
 				bButtonSelect = false;	
-				charSel.bDisable = false;
+				
 			}
 			else
 			{
@@ -240,7 +239,7 @@ public class ButtonSelect : MonoBehaviour
 								bSetHk = false;
 								SendButtons();
 								bButtonSelect = false;
-								charSel.bDisable = false;
+								
 								bSetUp = true;
 							}
 						}

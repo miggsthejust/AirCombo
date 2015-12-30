@@ -273,7 +273,7 @@ public class DummyController : MonoBehaviour
 	}
 	
 
-
+    // once we are airborne apply gravity and velocity
 	public void ApplyForces()
 	{
 		//Debug.Log("forceX "+forceX+" forceY "+forceY);
@@ -308,10 +308,9 @@ public class DummyController : MonoBehaviour
 		{
 			forceY -= gravity * Time.deltaTime;
 		}
-
-
 	}
 	
+    // spawns a default hitbox when idle
 	public void SpawnIdleHitBox()
 	{
 		if (hitBoxes != null)
@@ -319,16 +318,14 @@ public class DummyController : MonoBehaviour
 			Destroy(hitBoxes);
 		}
 
-
-		hitBoxes = Instantiate (idlehurtBoxes, transform.position, this.transform.rotation) as GameObject;
-
-		
+		hitBoxes = Instantiate (idlehurtBoxes, transform.position, this.transform.rotation) as GameObject;		
 		hitBoxes.transform.parent = this.transform;
 		//hitBoxes.transform.rotation = this.transform.rotation;
 		var hitOwner = hitBoxes.GetComponent<hurtScript>();
 		hitOwner.owner = this.tag;
 	}
 	
+    // called by attackboxes to trigger hit effects and send attack attributes
 	public void GotHit(Vector3 distance,float stun, int damage,bool wBounce,int type,int ex,Vector3 sparkPOS,float grav,bool noPush, bool launch,bool exAttack,bool posBased,bool right)
 	{
 		// store attack vars locally for use at end of frame.
@@ -348,6 +345,8 @@ public class DummyController : MonoBehaviour
 		bHitFrame = true;
 	}
 	
+    // once we have declared we are hit, resolve that hit on next frame
+    // this includes playing sounds based on hit strength, adjusting combo count, wallbounces, and launching
 	public void ResolveHit(Vector3 distance,float stun, int damage,bool wBounce,int type,int ex,Vector3 sparkPOS,float grav,bool noPush, bool launch,bool exAttack,bool posBased,bool right)
 	{
 		//if (bParryWin && hype.hypeAmount >= 50)
@@ -428,6 +427,7 @@ public class DummyController : MonoBehaviour
 			}
 	}
 
+    // creates the animation freeze when we are hit.
 	IEnumerator HitStop(float stun) 
 	{
 		//Debug.Log ("hitstop begun " +hitStopTime);
@@ -478,6 +478,7 @@ public class DummyController : MonoBehaviour
 //		jump.height = 0;
 	}
 
+    // called by grabbox to declare we have been air grabbed
 	public void GotAGrab(float grabPOS, int damage)
 	{
 		Destroy (hitBoxes);
@@ -494,6 +495,7 @@ public class DummyController : MonoBehaviour
 		//StartCoroutine(AGrabbed(damage));
 	}
 	
+    // when we have been air grabbed, apply grab effects
 	public void AGrabbed(int damage,bool exThrow)
 	{
 		// grabbed animation
@@ -520,6 +522,8 @@ public class DummyController : MonoBehaviour
 		//bThrown = false;
 	}
 	
+    // REMOVE AFTER TESTING
+    // temp code to allow multiple combos until proper reset code is created.
 	void JumpLanding()
 	{
 		Debug.Log ("jumpGrounded");
@@ -605,6 +609,7 @@ public class DummyController : MonoBehaviour
 		fighter.Translate(0, forceY * Time.deltaTime ,forceX * Time.deltaTime);
 	}
 
+    // not sure why this is still needed, try to remove.
 	public void AirKnockback()
 	{
 		//Debug.Log ("knock "+fighter.position.y);
@@ -778,7 +783,7 @@ public class DummyController : MonoBehaviour
 		SpawnIdleHitBox();
 		
 	}
-
+// this should move to it's own proper gui class eventually.
 	void OnGUI()
 	{
 		if (comboCount > 1)

@@ -16,7 +16,6 @@ public class healthbar : MonoBehaviour
 	public bool bActive;
 	private float reverseBarPOS;
 	public bool bar1;
-	private float barVel = 0.0f;
 	//private float barHealth;
 	/*
 	void OnGUI()
@@ -47,19 +46,10 @@ public class healthbar : MonoBehaviour
 	{
 		if (bActive)
 		{
-			float barHealth;
-				
-			if (bar1)
-			{
-				barHealth = gameMain.hp1 *0.001f;	
-			}
-			else
-			{
-				barHealth = gameMain.hp2 *0.001f;
-			}
+			
 				//barFight.GetComponent<CoreStats>().health 
 			
-			barDisplay = Mathf.SmoothDamp(barDisplay,barHealth,ref barVel,0.06f);
+			
 			if (barDisplay < 0)
 			{
 				barDisplay = 0;

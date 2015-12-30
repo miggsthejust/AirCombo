@@ -6,7 +6,7 @@
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
 	<RootNamespace></RootNamespace>
-	<ProjectGuid>{0493EEA4-55E6-3EDB-086E-1EC817B997BA}</ProjectGuid>
+	<ProjectGuid>{61AE968B-7C79-5F85-365D-7E9FE0162CFC}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<AssemblyName>Assembly-CSharp</AssemblyName>
@@ -54,7 +54,6 @@
      <Compile Include="Assets\Script\ButtonSelect.cs" />
      <Compile Include="Assets\Script\CamDetect.cs" />
      <Compile Include="Assets\Script\CameraScroll.cs" />
-     <Compile Include="Assets\Script\CharSelect.cs" />
      <Compile Include="Assets\Script\CoreStats.cs" />
      <Compile Include="Assets\Script\DummyAnimation.cs" />
      <Compile Include="Assets\Script\DummyCollision.cs" />
@@ -67,22 +66,15 @@
      <Compile Include="Assets\Script\FighterController.cs" />
      <Compile Include="Assets\Script\FighterInit.cs" />
      <Compile Include="Assets\Script\FrontEnd.cs" />
-     <Compile Include="Assets\Script\GrillHitDetect.cs" />
-     <Compile Include="Assets\Script\GrillScript.cs" />
-     <Compile Include="Assets\Script\GrillScriptEx.cs" />
      <Compile Include="Assets\Script\Jump.cs" />
      <Compile Include="Assets\Script\Main.cs" />
      <Compile Include="Assets\Script\MoveListScript.cs" />
      <Compile Include="Assets\Script\MovelistButton.cs" />
      <Compile Include="Assets\Script\Movement.cs" />
-     <Compile Include="Assets\Script\NetworkManager.cs" />
-     <Compile Include="Assets\Script\NetworkSyncAnimation.cs" />
      <Compile Include="Assets\Script\Parry.cs" />
      <Compile Include="Assets\Script\ParticleScript.cs" />
      <Compile Include="Assets\Script\PauseButton.cs" />
      <Compile Include="Assets\Script\PauseMenu.cs" />
-     <Compile Include="Assets\Script\PieChartMesh.cs" />
-     <Compile Include="Assets\Script\PieChartMeshController.cs" />
      <Compile Include="Assets\Script\PlayerInput.cs" />
      <Compile Include="Assets\Script\ProjectileScript.cs" />
      <Compile Include="Assets\Script\PsScript.cs" />
@@ -102,12 +94,9 @@
      <Compile Include="Assets\Script\fighterKo.cs" />
      <Compile Include="Assets\Script\fighterSounds.cs" />
      <Compile Include="Assets\Script\frontEndButton.cs" />
-     <Compile Include="Assets\Script\globeRot.cs" />
      <Compile Include="Assets\Script\healthbar.cs" />
      <Compile Include="Assets\Script\hitDetect.cs" />
      <Compile Include="Assets\Script\hurtScript.cs" />
-     <Compile Include="Assets\Script\hypeGuage.cs" />
-     <Compile Include="Assets\Script\hypebar.cs" />
      <Compile Include="Assets\Script\jumpHKick.cs" />
      <Compile Include="Assets\Script\jumpHPunch.cs" />
      <Compile Include="Assets\Script\jumpLKick.cs" />
@@ -130,7 +119,7 @@
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>D:/projects/051814 Build/Net Build/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>D:/projects/051814 Build/AirCombo/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
@@ -144,10 +133,6 @@
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>D:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
  </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{BD78BEFE-1B6A-9BC8-F934-62D970E1ACEA}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

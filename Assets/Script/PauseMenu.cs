@@ -5,7 +5,6 @@ public class PauseMenu : MonoBehaviour
 {
 	
 	public GameObject frontEnd;
-	public CharSelect charSelect;
 	public Main gameMain;
 	public ButtonSelect btnSelect;
 	public MoveListScript moveList;
@@ -36,10 +35,8 @@ public class PauseMenu : MonoBehaviour
 				else if (gameMain.gameEndMenu)
 				{
 					gameMain.CloseGameOverMenu();
-					gameMain.SendNetCharChange();
 				}
 			
-				charSelect.OnScreen();
 				gameMain.CharChangeReset();
 				
 			}
@@ -47,8 +44,6 @@ public class PauseMenu : MonoBehaviour
 			{
 				print("Main Menu");
 				gameMain.ClosePauseMenu();
-				//charSelect.transform.Translate(-1000,0,0);
-				//charSelect.OnScreen();
 				gameMain.QuitGame();
 				frontEnd.GetComponent<FrontEnd>().ReActivate();
 				//bOffScreen = true;
@@ -85,7 +80,6 @@ public class PauseMenu : MonoBehaviour
 				//switch to Host Game
 				print("disconnect");
 				gameMain.CloseGameOverMenu();
-				gameMain.Disconnect();
 				gameMain.QuitGame();
 				frontEnd.GetComponent<FrontEnd>().ReActivate();
 				//this.transform.Translate(1000,0,0);

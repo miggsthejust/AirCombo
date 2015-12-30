@@ -70,7 +70,6 @@ public class ProjectileScript : MonoBehaviour
 				var opponentOwner = opponentCol.transform.parent.GetComponent<hurtScript>().owner;
 				if (opponentOwner != owner)
 				{
-					var closestPoint = opponentCol.ClosestPointOnBounds(this.transform.position);
 					Debug.Log(opponentCol + "hit");
 					controller.CancelWindow();
 //					controller.stats.opponent.GetComponent<FighterController>().GotHit(hitDist,hitStun,hitDam,knockDown,hitType,ex,closestPoint,chip,true,false,exTrue,false,false);

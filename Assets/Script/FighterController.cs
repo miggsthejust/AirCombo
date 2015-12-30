@@ -12,7 +12,6 @@ public class FighterController : MonoBehaviour
 	public PlayerInput playerInput;
 	public Transform fighter;
 	public FighterAnimation animations;
-	public hypeGuage hype;
 	public Parry parry;
 	private exFlash ExEffects;
 	public float enemyPos;
@@ -117,8 +116,7 @@ public class FighterController : MonoBehaviour
 	public GameObject attackTrailHandL;
 	public GameObject attackTrailHandR;
 	
-	// used by got hit
-	bool bHitFrame = false;
+	
 	// flags this as the frame we began throwing on.
 	public bool bThrowingFrame = false;
 	// attack storage vars
@@ -154,7 +152,6 @@ public class FighterController : MonoBehaviour
 		fSounds = GameObject.FindGameObjectWithTag("fighterSound").GetComponent<fighterSounds>();
 		stats = GetComponent<CoreStats>();
 		movement = GetComponent<Movement>();
-		hype = GetComponent<hypeGuage> ();
 		//input = main.GetComponent<PlayerInput>();
 		jump = GetComponent<Jump>();
 		animations = GetComponent<FighterAnimation>();
@@ -190,7 +187,6 @@ public class FighterController : MonoBehaviour
 		//enemyPos = enemycol.transform.x;
 		
 		bool upButton;
-		bool downButton;
 		bool leftButton;
 		bool rightButton;
 		bool attack01ButtonDown;
@@ -210,7 +206,6 @@ public class FighterController : MonoBehaviour
 		
 
 		upButton = inputState.upButton;
-		downButton = inputState.downButton;
 		leftButton = inputState.leftButton;
 		rightButton = inputState.rightButton;
 		attack01ButtonDown = inputState.attack01ButtonDown;
@@ -228,16 +223,10 @@ public class FighterController : MonoBehaviour
 		{
 
 			// if we are hit this frame then we resolve that hit. If our throw connected we ignore and continue throwing
-			if (bBouncing)
-			{
-				jump.CGrabBounce();
-			}
-
-			else if (bHit)
+			if (bHit)
 			{
 				jump.AirKnockback();
 			}
-
 			else 
 			{
 				if (this.tag == "fighter1")
@@ -438,8 +427,6 @@ public class FighterController : MonoBehaviour
 							//Debug.Log("resetting parry");
 							bParryAttempt = false;
 						}
-					
-					
 							Facing();
 							}
 						}
@@ -648,7 +635,9 @@ public class FighterController : MonoBehaviour
 		jump.EndJump ();
 	}
 
-	public void ApplyForces()
+    // END OF ATTACKS
+
+    public void ApplyForces()
 	{
 		//Debug.Log("forceX "+forceX+" forceY "+forceY);
 		if (bPushed)
@@ -672,8 +661,6 @@ public class FighterController : MonoBehaviour
 			forceY -= gravity * Time.deltaTime;
 		}
 	}
-	
-	// END OF ATTACKS
 	
 	public void InterruptAttacks()
 	{
@@ -707,6 +694,7 @@ public class FighterController : MonoBehaviour
 		hitOwner.owner = this.tag;
 	}
 
+    // when we have successfuly landed a wallbounce attack on the dummy, we reset the gravity increase on each attack in our attack list.
 	public void WallBounceReset ()
 	{
 		foreach (AttackClass classes in attackList)
@@ -724,6 +712,7 @@ public class FighterController : MonoBehaviour
 		jump.height = 0;
 	}
 
+    // when successfully landing an air grab
 	public void GotAGrab(float grabPOS, int damage)
 	{
 		Destroy (hitBoxes);
@@ -809,6 +798,7 @@ public class FighterController : MonoBehaviour
 		fighter.position = new Vector3(tempX,0,0);
 	}
 
+    // opens the cancel window to allow the player to cancel the current attack into another
 	public void CancelWindow()
 	{
 		//StopAllCoroutines();
@@ -817,6 +807,7 @@ public class FighterController : MonoBehaviour
 		StartCoroutine("Cancelling");
 	}
 	
+    // opens and closes the ability to cancel current attack.
 	IEnumerator Cancelling()
 	{
 		bCanceling = true;
@@ -907,20 +898,5 @@ public class FighterController : MonoBehaviour
 		
 		SpawnIdleHitBox();
 		
-	}
-	
-	
-	
-	void OnGUI()
-	{
-		if (comboCount > 1)
-		{
-			if (this.tag == "fighter1")
-			{
-				GUI.Label(new Rect(Screen.width - 80, Screen.height/3, 200, 20), "COMBO "+comboCount.ToString());
-			}
-			else
-				GUI.Label(new Rect(20, Screen.height/3, 200, 20), "COMBO "+comboCount.ToString());
-		}
 	}
 }

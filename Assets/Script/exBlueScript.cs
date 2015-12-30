@@ -66,7 +66,6 @@ public class exBlueScript : MonoBehaviour
 				var opponentOwner = opponentCol.transform.parent.GetComponent<hurtScript>().owner;
 				if (opponentOwner != owner)
 				{
-					var closestPoint = opponentCol.ClosestPointOnBounds(this.transform.position);
 					Debug.Log(opponentCol + "hit");
 					//controller.CancelWindow();
 //					controller.fighterActivate.BlueEXHit();

@@ -3,7 +3,6 @@ using System.Collections;
 
 public class charSelectButton : MonoBehaviour 
 {
-	public CharSelect cSel;
 	public int butNum;
 	
 	void OnMouseOver()
@@ -18,6 +17,5 @@ public class charSelectButton : MonoBehaviour
 	void OnMouseUp()
 	{
 		print ("activate");
-		cSel.Activate(butNum);
 	}
 }

@@ -3,7 +3,6 @@ using System.Collections;
 
 public class SpawnFighters : MonoBehaviour 
 {
-	public NetworkManager netManage;
 	
 	public void Spawning (GameObject choiceFab,Transform spawnPos,bool bFighter1)
 	{
@@ -45,6 +44,5 @@ public class SpawnFighters : MonoBehaviour
 		
 		fighter.GetComponent<FighterInit>().Spawn(spawnPos);
 		fighter.GetComponent<FighterController>().input = this.gameObject.GetComponent<PlayerInput>();
-		netManage.SendFighterTag(fighter.GetComponent<NetworkView>().viewID, fighter.tag);
 	}
 }
