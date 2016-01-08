@@ -225,9 +225,57 @@ public class Jump : MonoBehaviour
 		fighter.position = new Vector3(tempX,0,0);
 		
 	}
-	
-	// when fighter is hit with an attack that causes a bounce
-	public void BeginBounce()
+
+
+    public void BeginLaunch()
+    {
+        Debug.Log("begining launch " + Time.time);
+        controller.bJumping = true;
+        controller.bJumpFalling = false;
+        controller.SpawnIdleHitBox();
+        height = jumpHeight * 3.0f;
+
+        if (controller.bJumpForward)
+        {
+            length = jumpLength;
+        }
+        else if (controller.bJumpBackward)
+        {
+            length = -jumpLength;
+        }
+        else
+        {
+            length = 0;
+        }
+
+        if (cam.camBlock)
+        {
+            if (controller.bJumpBackward)
+            {
+                length = 0;
+            }
+        }
+
+        if (controller.bOnLeftWall)
+        {
+            if ((controller.bFacingRight) && (controller.bJumpBackward) || (!controller.bFacingRight) && (controller.bJumpForward))
+            {
+                length = 0;
+            }
+        }
+        else if (controller.bOnRightWall)
+        {
+            if ((!controller.bFacingRight) && (controller.bJumpBackward) || (controller.bFacingRight) && (controller.bJumpForward))
+            {
+                length = 0;
+            }
+
+        }
+
+        fighter.Translate(0, height * Time.deltaTime * netMod, length * Time.deltaTime * netMod);
+    }
+    // when fighter is hit with an attack that causes a bounce
+    public void BeginBounce()
 	{
 		Debug.Log ("begining bounce");
 		//controller.bJumping = true;

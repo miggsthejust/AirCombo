@@ -74,8 +74,11 @@ public class FighterController : MonoBehaviour
 	public float smooth;
 	public bool pushBack = false;
 	public bool noPushBack = false;
-	// attack bools
-	public bool bAttacking = false;
+    // attack bools
+    public bool bLaunch = false;
+    public float launchMulti = 2.0f;
+
+    public bool bAttacking = false;
 	//public bool bAttackActive = false; // used for counter hit
 	public bool bThrowing = false;
 	public bool bAirThrowL = false;
@@ -359,7 +362,13 @@ public class FighterController : MonoBehaviour
 						
 					if (!bAttacking)
 					{
-						if (upButton)
+                        // launch if attacking on ground
+                        if ((attack01ButtonDown) && (!bAttacking))
+                        {
+                            StopAttacks();
+                            StartCoroutine("AttackRoutine", attackList[6]);
+                        }
+                        else if (upButton)
 						{
 							if (bFacingRight)
 							{
@@ -590,7 +599,11 @@ public class FighterController : MonoBehaviour
 			attackOwner.controller = this;
 			attackOwner.owner = this.tag; // define fighter as owner for collision check
 			attackOwner.launch = attackClass.hitList [i].launch;
-			attackOwner.wallBounce = attackClass.hitList [i].wallBounce;			
+            if (attackClass.hitList[i].launch)
+            {
+                bLaunch = true;
+            }
+            attackOwner.wallBounce = attackClass.hitList [i].wallBounce;			
 			attackOwner.hitDist = attackClass.hitList [i].push;  
 			attackOwner.hitType = attackClass.hitList [i].exGain;
 			attackOwner.grav = attackClass.hitList [i].gravInc;
@@ -609,8 +622,13 @@ public class FighterController : MonoBehaviour
 		// Attack Cooldown --------------------------------
 		//Debug.Log(AttackClass.name+" cooldown "+Time.time);
 		yield return new WaitForSeconds(coolDown);// wait until cooldown time is done
-
-		//attackTrailHandL.renderer.enabled = false;
+        if (bLaunch)
+        {
+            StartCoroutine("LaunchStartup");
+            bJumpStart = true;
+            bLaunch = false;
+        }
+        //attackTrailHandL.renderer.enabled = false;
 		//attackTrailHandR.renderer.enabled = false;
 		//attackTrailFootL.renderer.enabled = false;
 		//attackTrailFootR.renderer.enabled = false;
@@ -756,8 +774,35 @@ public class FighterController : MonoBehaviour
 		}
 		fighter.Translate(0, forceY * Time.deltaTime,forceX * Time.deltaTime);
 	}
-	
-	public void Jumping()
+
+    IEnumerator LaunchStartup()
+    {
+        yield return new WaitForSeconds(jump.startup);
+        Debug.Log("begining Launch " + Time.time);
+        bGrounded = false;
+        bJumpStart = false;
+        //jump.BeginJump();
+        animations.JumpAnimate();
+        bJumping = true;
+        bJumpFalling = false;
+        SpawnIdleHitBox();
+        forceY = jump.jumpHeight * launchMulti;
+
+        if (bJumpForward)
+        {
+            forceX = jump.jumpLength;
+        }
+        else if (bJumpBackward)
+        {
+            forceX = -jump.jumpLength;
+        }
+        else
+        {
+            forceX = 0;
+        }
+        fighter.Translate(0, forceY * Time.deltaTime, forceX * Time.deltaTime);
+    }
+    public void Jumping()
 	{
 		//Debug.Log ("jump "+fighter.position.y);
 		if (fighter.position.y <= 0)

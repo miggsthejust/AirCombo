@@ -413,7 +413,8 @@ public class DummyController : MonoBehaviour
 				//animations.KOAnimate();
 				animations.AirHitAnimate();
 				StopCoroutine("HitStop");
-				StopCoroutine("HitStun");
+            StartCoroutine("HitStop", stun);
+            StopCoroutine("HitStun");
 				stun = 0;
 					
 			}
@@ -442,7 +443,7 @@ public class DummyController : MonoBehaviour
 		animations.UnPause();
 		stats.opponent.GetComponent<FighterAnimation>().UnPause();
 		//Debug.Log ("hitstop finished " +gameMain.frameCount);
-	//	Time.timeScale = 1.0f;
+		//Time.timeScale = 1.0f;
 		//Time.timeScale = gameMain.gameSpeed;
 		//StopCoroutine("HitStun");
 		if (stun != 0)

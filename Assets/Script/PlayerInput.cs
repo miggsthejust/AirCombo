@@ -169,9 +169,9 @@ public class PlayerInput : MonoBehaviour
 		 
 		// an array of states we will store and call
 		public List<State> localBufState = new List<State>();
-		//State[] networkBufState = new State[];
-//		State[] savedBuffer = new State[3000];
-		public int localStateCount;
+    //State[] networkBufState = new State[];
+        public List<State> savedBuffer = new List<State>();
+     public int localStateCount;
 		//public float timeThreshold = 0.05F;
 		public State playingState;
 		//State statenet;
@@ -578,8 +578,8 @@ public class PlayerInput : MonoBehaviour
 	
 	public void ResetBuffer()
 	{
-		//savedBuffer = localBufState;
-		//localBufState = new State[60000];
+		savedBuffer = localBufState;
+        localBufState.Clear();
 	}
 		
 	public bool HoldLKCheck01()

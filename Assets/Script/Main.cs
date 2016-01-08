@@ -153,7 +153,7 @@ public class Main : MonoBehaviour
 				}
 				else if (Input.GetKeyDown("escape") && bPauseMenu)
 				{
-					ClosePauseMenu();
+					//ClosePauseMenu();
 				}
 				// run the main stack. Make sure it's all necessary to be called every frame.
 				// character 1 code
@@ -205,17 +205,24 @@ public class Main : MonoBehaviour
 	}
 
 	
-	public void EndRound(string fighter)
+	public void EndRound()
 	{
-		StartCoroutine("EndRoundRoute",fighter);
+		StartCoroutine("EndRoundRoute");
 	}
 	
-	IEnumerator EndRoundRoute (string fighter)
+	IEnumerator EndRoundRoute ()
 	{
-		yield return new WaitForSeconds(0.016f);
-		bRoundStarted = false;
-		RestartRound();
-	}
+        yield return new WaitForSeconds(0.5f);
+        // give round counter to winner.
+
+        sFade.fadeOut = true;
+        yield return new WaitForSeconds(1.2f);
+
+        RestartRound();
+        //yield return new WaitForSeconds(0.016f);
+        //bRoundStarted = false;
+        //RestartRound();
+    }
 	
 	public void EndRoutines()
 	{
@@ -241,9 +248,10 @@ public class Main : MonoBehaviour
 			attackMenu.fighter = GameObject.FindWithTag("fighter1").GetComponent<FighterController>();
 			cHeight.dummy = GameObject.FindWithTag("fighter2").transform;
 			cHeight.comboActive = true;
-			
-			
-			sFade.fadeIn = true;
+
+            attackMenu.AssignAttacks();
+            player.ResetBuffer(); // remove this to play a replay.
+            sFade.fadeIn = true;
 			begun = true;
 			StartCoroutine(ReadyText());
 			//Debug.Log(bRoundStarted);
@@ -307,7 +315,9 @@ public class Main : MonoBehaviour
 		cam.transform.position = camStartPos;
 		cam.transform.rotation = new Quaternion(0,0,0,0);
 		gameOver = false;
+        
 		yield return new WaitForSeconds(0.6f);
+        /*
 		readyText = Instantiate(readyTextFab,new Vector3(0.0f,8.0f,-10.0f),Quaternion.identity) as GameObject;
 		readyText.GetComponent<Animation>().Play("readyText");
 		yield return new WaitForSeconds(0.5f);
@@ -322,13 +332,14 @@ public class Main : MonoBehaviour
 		yield return new WaitForSeconds(0.5f);
 		readyText.GetComponent<Animation>().Stop();
 		readyText.GetComponent<TextMesh>().text = "";
+        */
 		bFadeInComplete = true;
 		//yield return new WaitForSeconds(0.5f);
 		cam.GetComponent<CameraScroll>().active = true;
 		//readyText.GetComponent<TextMesh>().text = "fight!";
 		//readyText.animation.Play("readyText");
 		//yield return new WaitForSeconds(0.5f);
-		Destroy (readyText);
+		//Destroy (readyText);
 	}
 	
 	public void RestartRound()
@@ -364,11 +375,16 @@ public class Main : MonoBehaviour
 		}
 	}
 	
-	void PauseMenu()
+	public void PauseMenu()
 	{
-		bPauseMenu = true;
-		pMenu.Reactivate();
-	}
+        //bPauseMenu = true;
+        Debug.Log("in pauseMenu");
+        //EndRoutines();
+        //EndRound();
+        QuitGame();
+       
+        //pMenu.Reactivate();
+    }
 	public void ClosePauseMenu()
 	{
 		pMenu.OffScreen();
@@ -377,13 +393,13 @@ public class Main : MonoBehaviour
 	public void QuitGame()
 	{
 		aSounds.StopMusic();
-		// stop gameplay. reset all buffers.
-		gameOver = true;
-		begun = false;
+        // stop gameplay. reset all buffers.
+        gameOver = true;
+        begun = false;
 		bRoundStarted = false;
 		fightersInit = false;
 		bFadeInComplete = false;
-		introDone = false;
+		//introDone = false;
 		gameEndMenu = false;
 		rEnd.pOneRounds = 0;
 		rEnd.pTwoRounds = 0;
@@ -400,11 +416,11 @@ public class Main : MonoBehaviour
 		Destroy(tempinp2);
 		//print (tempinp1);
 		//print (tempinp2);
-		bChooseChar = true;
-		bP2ChoseChar = false;
-		bP1ChoseChar = false;
-		fighterChoice01 = null;
-		fighterChoice02 = null;
+		//bChooseChar = true;
+		//bP2ChoseChar = false;
+		//bP1ChoseChar = false;
+		//fighterChoice01 = null;
+		//fighterChoice02 = null;
 		vsBegin = false;
 		gameOver = false;
 		DinfHealth = false;

@@ -26,7 +26,8 @@ public class MenuGui : MonoBehaviour
 		{
 			attackChoice01Strings[i] = attackList[i].name;
 		}
-	}
+        
+    }
 
 	void OnGUI () 
 	{
@@ -71,15 +72,21 @@ public class MenuGui : MonoBehaviour
 
 		if (GUI.Button (new Rect (250, 146, 60, 20), "SET")) 
 		{
-			// function to set attacks to fighter
-			fighter.attackList[0] = attackList[attackChoice01Int]; // send attack data from master attack list to fighter list.
-			fighter.attackList[1] = attackList[attackChoice02Int]; // send attack data from master attack list to fighter list.
-			fighter.attackList[2] = attackList[attackChoice03Int]; // send attack data from master attack list to fighter list.
-			fighter.attackList[3] = attackList[attackChoice04Int]; // send attack data from master attack list to fighter list.
-			fighter.attackList[0].ActivateHits();
-			fighter.attackList[1].ActivateHits();
-			fighter.attackList[2].ActivateHits();
-			fighter.attackList[3].ActivateHits();
-		}
+            AssignAttacks();
+
+        }
 	}
+
+    public void AssignAttacks()
+    {
+        // function to set attacks to fighter
+        fighter.attackList[0] = attackList[attackChoice01Int]; // send attack data from master attack list to fighter list.
+        fighter.attackList[1] = attackList[attackChoice02Int]; // send attack data from master attack list to fighter list.
+        fighter.attackList[2] = attackList[attackChoice03Int]; // send attack data from master attack list to fighter list.
+        fighter.attackList[3] = attackList[attackChoice04Int]; // send attack data from master attack list to fighter list.
+        fighter.attackList[0].ActivateHits();
+        fighter.attackList[1].ActivateHits();
+        fighter.attackList[2].ActivateHits();
+        fighter.attackList[3].ActivateHits();
+    }
 }
